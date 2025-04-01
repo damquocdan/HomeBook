@@ -1,0 +1,48 @@
+﻿@model IEnumerable<HomeBook.Models.Statistic>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/AdminHomeBook/Views/Shared/Admin.cshtml";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.ReportDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TotalOrders)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TotalRevenue)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ReportDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TotalOrders)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TotalRevenue)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.StatisticId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.StatisticId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.StatisticId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
