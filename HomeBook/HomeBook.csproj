@@ -23,6 +23,7 @@
 
   <ItemGroup>
     <Folder Include="Areas\AdminHomeBook\Data\" />
+    <Folder Include="wwwroot\images\books\" />
   </ItemGroup>
 
 </Project>

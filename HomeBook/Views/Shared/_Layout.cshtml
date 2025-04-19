@@ -7,39 +7,174 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/HomeBook.styles.css" asp-append-version="true" />
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+
+
+
+    <!-- style -->
+
+    <link href="~/css/style.css" rel="stylesheet" type="text/css">
+
+    <!-- style -->
+    <!-- bootstrap -->
+
+    <link href="~/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+
+    <!-- responsive -->
+
+    <link href="~/css/responsive.css" rel="stylesheet" type="text/css">
+
+    <!-- font-awesome -->
+
+    <link href="~/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <!-- font-awesome -->
+
+    <link href="~/css/effects/set2.css" rel="stylesheet" type="text/css">
+
+    <link href="~/css/effects/normalize.css" rel="stylesheet" type="text/css">
+
+    <link href="~/css/effects/component.css" rel="stylesheet" type="text/css">
+    <style>
+        .main-header {
+            background-color: #fff;
+        }
+
+        .header-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo a img {
+            max-width: 100px;
+            display: block;
+        }
+
+        .nav-menu-container {
+            /* Không cần gì thêm ở đây trừ khi muốn custom thêm */
+        }
+
+        .nav-menu {
+            display: flex;
+            gap: 30px;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .nav-item a {
+            font-weight: 600;
+            font-size: 16px;
+            color: #404040;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+            .nav-item a:hover,
+            .nav-item.nav-active a {
+                color: #fb5353;
+            }
+
+    </style>
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">HomeBook</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
+    <header class="main-header">
+        <div class="container header-container">
+            <h1 class="logo">
+                <a asp-controller="Home" asp-action="Index" title="avana LLC">
+                    <img src="~/logo.png" alt="avana LLC" />
+                </a>
+            </h1>
+
+            <nav class="nav-menu-container">
+                <ul class="nav-menu">
+                    <li class="nav-item"><a asp-controller="Home" asp-action="Index" title="Work">Trang chủ</a></li>
+                    <li class="nav-item"><a asp-controller="Home" asp-action="Privacy" title="About">Giới thiệu</a></li>
+                    <li class="nav-item"><a asp-controller="Books" asp-action="Index" title="Blog">Sản phẩm</a></li>
+                    <li class="nav-item"><a asp-controller="Contacts" asp-action="Create" title="Contact">Liên hệ</a></li>
+                    @if (Context.Session.GetString("CustomerLogin") != null)
+                    {
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                            <a  asp-area="" asp-controller="Orders" asp-action="Index" asp-route-customerId="@Context.Session.GetInt32("CustomerId")">Đơn hàng</a>
+                        </li>
+                        <!-- Hiển thị Giỏ hàng và Đăng xuất khi đã đăng nhập -->
+                        <li class="nav-item">
+                            <a asp-area="" asp-controller="Carts" asp-action="Index" asp-route-customerId="@Context.Session.GetInt32("CustomerId")">Giỏ hàng</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                            <a asp-controller="Customers" asp-action="Details" asp-route-customerId="@Context.Session.GetInt32("CustomerId")">Thông tin cá nhân</a>
                         </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+                        <li class="nav-item">
+                            <a href="@Url.Action("Logout", "LoginC")">Đăng xuất</a>
+                        </li>
+                    }
+                    else
+                    {
+                        <!-- Hiển thị Đăng nhập và Đăng ký khi chưa đăng nhập -->
+                        <li class="nav-item">
+                            <a asp-controller="LoginC" asp-action="Index">Đăng nhập</a>
+                        </li>
+                        <li class="nav-item">
+                            <a asp-area="" asp-controller="Customers" asp-action="Create">Đăng ký</a>
+                        </li>
+                    }
+                </ul>
+            </nav>
+        </div>
     </header>
-    <div class="container">
-        <main role="main" class="pb-3">
+
+    <div>
+        <main role="main-home-wrapper" class="container">
             @RenderBody()
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2025 - HomeBook - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-        </div>
+    <footer role="footer">
+
+        <!-- logo -->
+
+        <h1>
+
+            <a href="index.html" title="avana LLC"><img src="~/images/logo.png" title="avana LLC" alt="avana LLC" /></a>
+
+        </h1>
+
+        <!-- logo -->
+        <!-- nav -->
+
+        <nav role="footer-nav">
+
+            <ul>
+
+                <li><a href="index.html" title="Work">Work</a></li>
+
+                <li><a href="about.html" title="About">About</a></li>
+
+                <li><a href="blog.html" title="Blog">Blog</a></li>
+
+                <li><a href="contact.html" title="Contact">Contact</a></li>
+
+            </ul>
+
+        </nav>
+
+        <!-- nav -->
+
+        <ul role="social-icons">
+
+            <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+
+            <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+
+            <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+
+            <li><a href="#"><i class="fa fa-flickr" aria-hidden="true"></i></a></li>
+
+        </ul>
+
+        <p class="copy-right">&copy; 2015  avana LLC.. All rights Resved</p>
+
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>

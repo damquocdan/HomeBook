@@ -1,66 +1,87 @@
 ﻿@model IEnumerable<HomeBook.Models.Contact>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Danh sách liên hệ";
     Layout = "~/Areas/AdminHomeBook/Views/Shared/Admin.cshtml";
 }
 
-<h1>Index</h1>
+<div>
+    <h1 class="mb-4 text-danger"><i class="bi bi-envelope-fill me-2"></i> Danh sách liên hệ</h1>
+    <div class="table-responsive">
+        <table class="table table-bordered table-striped">
+            <thead class="bg-danger text-white">
+                <tr>
+                    <th>
+                        <i class="bi bi-person-fill me-2"></i> @Html.DisplayNameFor(model => model.Name)
+                    </th>
+                    <th>
+                        <i class="bi bi-envelope-at-fill me-2"></i> @Html.DisplayNameFor(model => model.Email)
+                    </th>
+                    <th>
+                        <i class="bi bi-telephone-fill me-2"></i> @Html.DisplayNameFor(model => model.Phone)
+                    </th>
+                    <th>
+                        <i class="bi bi-chat-left-text-fill me-2"></i> @Html.DisplayNameFor(model => model.Subject)
+                    </th>
+                    <th style="max-width: 200px;">
+                        <i class="bi bi-chat-right-dots-fill me-2"></i> @Html.DisplayNameFor(model => model.Message)
+                    </th>
+                    <th>
+                        <i class="bi bi-calendar-event-fill me-2"></i> @Html.DisplayNameFor(model => model.CreatedAt)
+                    </th>
+                    <th class="text-center"><i class="bi bi-gear-fill me-2"></i> Thao tác</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Name)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Email)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Phone)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Subject)
+                        </td>
+                        <td style="max-width: 200px; overflow: hidden; text-overflow: ellipsis;">
+                            @Html.DisplayFor(modelItem => item.Message)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.CreatedAt)
+                        </td>
+                        <td class="text-center">
+                            <a asp-action="Details" asp-route-id="@item.ContactId" class="btn btn-sm btn-info ms-2"><i class="bi bi-info-circle-fill me-1"></i> Chi tiết</a>
+                            <a asp-action="Delete" asp-route-id="@item.ContactId" class="btn btn-sm btn-danger ms-2"><i class="bi bi-trash-fill me-1"></i> Xóa</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Name)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Email)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Phone)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Subject)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Message)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.CreatedAt)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Name)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Email)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Phone)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Subject)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Message)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.CreatedAt)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.ContactId">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.ContactId">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.ContactId">Delete</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+<style>
+    .btn-primary {
+        background-color: #fb5353;
+        border-color: #fb5353;
+    }
+
+        .btn-primary:hover {
+            background-color: #d94242;
+            border-color: #d94242;
+        }
+
+    .bg-danger {
+        background-color: #fb5353 !important;
+    }
+
+    .text-danger {
+        color: #fb5353 !important;
+    }
+</style>

@@ -1,0 +1,127 @@
+﻿@model HomeBook.Models.LoginC
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+    .login-box {
+        margin:auto;
+        margin-top:100px;
+        background-color: #ffffff;
+        padding: 40px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        width: 100%;
+        max-width: 400px;
+        text-align: center;
+    }
+
+    .login-title {
+        font-size: 24px;
+        font-weight: bold;
+        color: #fb5353;
+        margin-bottom: 30px;
+    }
+
+    .custom-input {
+        border: 2px solid #fb5353;
+        border-radius: 5px;
+        padding: 10px;
+        margin-bottom: 20px;
+        font-size: 16px;
+        transition: border-color 0.3s ease;
+    }
+
+        .custom-input:focus {
+            outline: none;
+            border-color: #d43f3f;
+            box-shadow: 0 0 5px rgba(251, 83, 83, 0.3);
+        }
+
+    .btn-primary {
+        background-color: #fb5353;
+        border: none;
+        padding: 12px 20px;
+        font-size: 16px;
+        font-weight: bold;
+        border-radius: 5px;
+        width: 100%;
+        transition: background-color 0.3s ease;
+    }
+
+        .btn-primary:hover {
+            background-color: #d43f3f;
+        }
+
+    .alert-danger {
+        background-color: #ffe6e6;
+        border-color: #fb5353;
+        color: #d43f3f;
+        border-radius: 5px;
+        padding: 15px;
+        margin-bottom: 20px;
+    }
+
+        .alert-danger ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        .alert-danger li {
+            margin-bottom: 5px;
+        }
+
+    /* Responsive design */
+    @@media (max-width: 576px) {
+        .login-box
+
+    {
+        padding: 20px;
+        margin: 15px;
+    }
+
+    .login-title {
+        font-size: 20px;
+    }
+
+    .custom-input {
+        font-size: 14px;
+    }
+
+    .btn-primary {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    }
+</style>
+@if (!ViewData.ModelState.IsValid)
+{
+    <div class="alert alert-danger mt-3">
+        <ul>
+            @foreach (var modelState in ViewData.ModelState.Values)
+            {
+                foreach (var error in modelState.Errors)
+                {
+                    <li>@error.ErrorMessage</li>
+                }
+            }
+        </ul>
+    </div>
+}
+<div class="login-box">
+    <div class="login-title">Khách hàng đăng nhập</div>
+    <form asp-action="Index" method="post">
+        <!-- Email input -->
+        <input asp-for="Email" type="email" class="custom-input form-control form-control-lg"
+               placeholder="Email" />
+
+        <!-- Password input -->
+        <input asp-for="Password" type="password" class="custom-input form-control form-control-lg"
+               placeholder="Mật khẩu" required />
+
+        <!-- Submit button -->
+        <button type="submit" class="btn btn-primary">Đăng nhập</button>
+    </form>
+</div>

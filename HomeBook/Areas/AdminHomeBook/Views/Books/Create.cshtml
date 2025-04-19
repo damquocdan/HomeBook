@@ -1,72 +1,105 @@
 ﻿@model HomeBook.Models.Book
 
 @{
-    ViewData["Title"] = "Create";
+    ViewData["Title"] = "Thêm mới sách";
     Layout = "~/Areas/AdminHomeBook/Views/Shared/Admin.cshtml";
 }
 
-<h1>Create</h1>
+<div>
+    <h1 class="mb-4 text-danger"><i class="bi bi-book-fill me-2"></i> Thêm mới sách</h1>
 
-<h4>Book</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="Create">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="BookTitle" class="control-label"></label>
-                <input asp-for="BookTitle" class="form-control" />
-                <span asp-validation-for="BookTitle" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Author" class="control-label"></label>
-                <input asp-for="Author" class="form-control" />
-                <span asp-validation-for="Author" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Description" class="control-label"></label>
-                <input asp-for="Description" class="form-control" />
-                <span asp-validation-for="Description" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Price" class="control-label"></label>
-                <input asp-for="Price" class="form-control" />
-                <span asp-validation-for="Price" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="StockQuantity" class="control-label"></label>
-                <input asp-for="StockQuantity" class="form-control" />
-                <span asp-validation-for="StockQuantity" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="CategoryId" class="control-label"></label>
-                <select asp-for="CategoryId" class ="form-control" asp-items="ViewBag.CategoryId"></select>
-            </div>
-            <div class="form-group">
-                <label asp-for="PublisherId" class="control-label"></label>
-                <select asp-for="PublisherId" class ="form-control" asp-items="ViewBag.PublisherId"></select>
-            </div>
-            <div class="form-group">
-                <label asp-for="Status" class="control-label"></label>
-                <input asp-for="Status" class="form-control" />
-                <span asp-validation-for="Status" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="CoverImageUrl" class="control-label"></label>
-                <input asp-for="CoverImageUrl" class="form-control" />
-                <span asp-validation-for="CoverImageUrl" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
-            </div>
-        </form>
+    <hr class="border-danger mb-4" />
+
+    <div class="row">
+        <div class="col-md-6">
+            <form asp-action="Create" enctype="multipart/form-data">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                <div class="mb-3">
+                    <label asp-for="BookTitle" class="form-label"><i class="bi bi-bookmark-fill me-2"></i> Tên sách</label>
+                    <input asp-for="BookTitle" class="form-control" />
+                    <span asp-validation-for="BookTitle" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="Author" class="form-label"><i class="bi bi-pen-fill me-2"></i> Tác giả</label>
+                    <input asp-for="Author" class="form-control" />
+                    <span asp-validation-for="Author" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="Description" class="form-label"><i class="bi bi-file-earmark-richtext-fill me-2"></i> Mô tả</label>
+                    <input asp-for="Description" class="form-control" />
+                    <span asp-validation-for="Description" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="Price" class="form-label"><i class="bi bi-cash-coin me-2"></i> Giá</label>
+                    <input asp-for="Price" class="form-control" />
+                    <span asp-validation-for="Price" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="StockQuantity" class="form-label"><i class="bi bi-box-seam-fill me-2"></i> Số lượng tồn kho</label>
+                    <input asp-for="StockQuantity" class="form-control" />
+                    <span asp-validation-for="StockQuantity" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="CategoryId" class="form-label"><i class="bi bi-tag-fill me-2"></i> Danh mục</label>
+                    <select asp-for="CategoryId" class="form-control" asp-items="ViewBag.CategoryId"></select>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="PublisherId" class="form-label"><i class="bi bi-building-fill me-2"></i> Nhà xuất bản</label>
+                    <select asp-for="PublisherId" class="form-control" asp-items="ViewBag.PublisherId"></select>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="Status" class="form-label"><i class="bi bi-check-circle-fill me-2"></i> Trạng thái</label>
+                    <input asp-for="Status" class="form-control" />
+                    <span asp-validation-for="Status" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="CoverImageUrl" class="form-label"><i class="bi bi-image-fill me-2"></i> URL ảnh bìa</label>
+                    <input asp-for="CoverImageUrl" type="file" class="form-control" />
+                    <span asp-validation-for="CoverImageUrl" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <button type="submit" class="btn btn-danger"><i class="bi bi-plus-square-fill me-2"></i> Thêm mới</button>
+                    <a asp-action="Index" class="btn btn-secondary ms-2"><i class="bi bi-arrow-left-circle-fill me-2"></i> Quay lại danh sách</a>
+                </div>
+            </form>
+        </div>
     </div>
 </div>
 
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+<style>
+    .btn-danger {
+        background-color: #fb5353;
+        border-color: #fb5353;
+    }
+
+        .btn-danger:hover {
+            background-color: #d94242;
+            border-color: #d94242;
+        }
+
+    .border-danger {
+        border-color: #fb5353 !important;
+        border-width: 2px;
+    }
+
+    .text-danger {
+        color: #fb5353 !important;
+    }
+</style>
 
 @section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
 }

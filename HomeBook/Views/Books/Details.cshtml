@@ -1,0 +1,139 @@
+﻿@model HomeBook.Models.Book
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container">
+    <div class="blog-details">
+        <article class="post-details" id="post-details">
+            <header role="bog-header" class="bog-header text-center">
+                <h3><span>@Model.Price</span> VND</h3>
+                <h2>@Model.BookTitle</h2>
+            </header>
+
+            <figure>
+                <img src="@Model.CoverImageUrl" alt="@Model.BookTitle" class="img-responsive" />
+            </figure>
+
+            <div class="enter-content">
+                <h4>Thông tin sách</h4>
+                <p><strong>Tác giả:</strong> @Model.Author</p>
+                <p><strong>Mô tả:</strong> @(Model.Description ?? "Không có mô tả")</p>
+                <p><strong>Danh mục:</strong> @(Model.Category?.CategoryName ?? "Không xác định")</p>
+                <p><strong>Nhà xuất bản:</strong> @(Model.Publisher?.PublisherName ?? "Không xác định")</p>
+            </div>
+
+        </article>
+    </div>
+</div>
+
+<style>
+    .blog-details {
+        padding: 40px 0;
+    }
+
+    .post-details {
+        background: #fff;
+        border-radius: 8px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+    }
+
+    .bog-header {
+        margin-bottom: 30px;
+    }
+
+        .bog-header h3 {
+            font-size: 1.5em;
+            color: #007bff;
+            margin-bottom: 10px;
+        }
+
+            .bog-header h3 span {
+                font-size: 1.2em;
+                font-weight: bold;
+            }
+
+        .bog-header h2 {
+            font-size: 2em;
+            color: #333;
+            margin: 0;
+        }
+
+    .post-details figure {
+        margin: 0 0 20px;
+        text-align: center;
+    }
+
+    .post-details img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 8px;
+    }
+
+    .enter-content {
+        font-size: 1em;
+        color: #555;
+        line-height: 1.6;
+    }
+
+        .enter-content h4 {
+            font-size: 1.4em;
+            color: #333;
+            margin-bottom: 15px;
+        }
+
+        .enter-content p {
+            margin: 10px 0;
+        }
+
+    .action-links {
+        margin-top: 30px;
+    }
+
+    .btn-primary {
+        background: #007bff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 4px;
+        color: #fff;
+        text-decoration: none;
+        margin-right: 10px;
+    }
+
+        .btn-primary:hover {
+            background: #0056b3;
+        }
+
+    .btn-secondary {
+        background: #6c757d;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 4px;
+        color: #fff;
+        text-decoration: none;
+    }
+
+        .btn-secondary:hover {
+            background: #5a6268;
+        }
+
+   @@media (max-width: 768px) {
+        .post-details
+
+    {
+        padding: 15px;
+    }
+
+    .bog-header h2 {
+        font-size: 1.8em;
+    }
+
+    .enter-content {
+        font-size: 0.95em;
+    }
+
+    }
+</style>

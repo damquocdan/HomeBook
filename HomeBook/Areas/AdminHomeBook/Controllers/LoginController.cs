@@ -4,9 +4,9 @@ using System.Collections.Generic;
 using HomeBook.Areas.AdminHomeBook.Models;
 using HomeBook.Models;
 
-namespace HomeBook.Areas.AdminManagement.Controllers
+namespace HomeBook.Areas.AdminHomeBook.Controllers
 {
-    [Area("AdminManagement")]
+    [Area("AdminHomeBook")]
     public class LoginController : Controller
     {
         public HomeBookContext _context;

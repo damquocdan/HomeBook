@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HomeBook")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f734f80fcec38f30fd6b75531202dd3c5533436e")]
 [assembly: System.Reflection.AssemblyProductAttribute("HomeBook")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HomeBook")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

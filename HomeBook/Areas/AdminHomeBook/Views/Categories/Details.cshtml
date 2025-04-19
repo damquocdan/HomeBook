@@ -1,25 +1,46 @@
 ﻿@model HomeBook.Models.Category
 
 @{
-    ViewData["Title"] = "Details";
+    ViewData["Title"] = "Chi tiết danh mục";
     Layout = "~/Areas/AdminHomeBook/Views/Shared/Admin.cshtml";
 }
 
-<h1>Details</h1>
+<div class="container mt-4">
+    <h1 class="mb-4 text-danger"><i class="bi bi-info-circle-fill me-2"></i> Chi tiết danh mục</h1>
 
-<div>
-    <h4>Category</h4>
-    <hr />
-    <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.CategoryName)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.CategoryName)
-        </dd>
-    </dl>
+    <hr class="border-danger mb-4" />
+
+    <div>
+        <dl class="row">
+            <dt class="col-sm-3 fw-bold"><i class="bi bi-tag-fill me-2"></i> Tên danh mục</dt>
+            <dd class="col-sm-9">@Html.DisplayFor(model => model.CategoryName)</dd>
+        </dl>
+    </div>
+
+    <div>
+        <a asp-action="Edit" asp-route-id="@Model?.CategoryId" class="btn btn-warning"><i class="bi bi-pencil-square-fill me-2"></i> Sửa</a>
+        <a asp-action="Index" class="btn btn-secondary ms-2"><i class="bi bi-arrow-left-circle-fill me-2"></i> Quay lại danh sách</a>
+    </div>
 </div>
-<div>
-    <a asp-action="Edit" asp-route-id="@Model?.CategoryId">Edit</a> |
-    <a asp-action="Index">Back to List</a>
-</div>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+<style>
+    .text-danger {
+        color: #fb5353 !important;
+    }
+
+    .border-danger {
+        border-color: #fb5353 !important;
+        border-width: 2px;
+    }
+
+    .btn-warning {
+        background-color: #ffc107; /* Giữ màu vàng mặc định của Bootstrap warning */
+        border-color: #ffc107;
+    }
+
+        .btn-warning:hover {
+            background-color: #e0a800;
+            border-color: #d39e00;
+        }
+</style>

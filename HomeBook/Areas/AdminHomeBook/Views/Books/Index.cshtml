@@ -1,90 +1,117 @@
 ﻿@model IEnumerable<HomeBook.Models.Book>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Danh sách sách";
     Layout = "~/Areas/AdminHomeBook/Views/Shared/Admin.cshtml";
 }
 
-<h1>Index</h1>
+<div>
+    <h1 class="mb-4 text-danger"><i class="bi bi-book-half me-2"></i> Danh sách sách</h1>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.BookTitle)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Author)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Description)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Price)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.StockQuantity)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.OrderedQuantity)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Status)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.CoverImageUrl)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Category)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Publisher)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.BookTitle)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Author)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Description)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Price)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.StockQuantity)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.OrderedQuantity)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Status)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.CoverImageUrl)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Category.CategoryId)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Publisher.PublisherId)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.BookId">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.BookId">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.BookId">Delete</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+    <p>
+        <a asp-action="Create" class="btn btn-primary"><i class="bi bi-plus-square-fill me-2"></i> Thêm mới</a>
+    </p>
+
+    <div class="table-responsive">
+        <table class="table table-bordered table-striped">
+            <thead class="bg-danger text-white">
+                <tr>
+                    <th>
+                        <i class="bi bi-bookmark-fill me-2"></i> @Html.DisplayNameFor(model => model.BookTitle)
+                    </th>
+                    <th>
+                        <i class="bi bi-pen-fill me-2"></i> @Html.DisplayNameFor(model => model.Author)
+                    </th>
+                    <th>
+                        <i class="bi bi-file-earmark-richtext-fill me-2"></i> @Html.DisplayNameFor(model => model.Description)
+                    </th>
+                    <th>
+                        <i class="bi bi-cash-coin me-2"></i> @Html.DisplayNameFor(model => model.Price)
+                    </th>
+                    <th>
+                        <i class="bi bi-box-seam-fill me-2"></i> @Html.DisplayNameFor(model => model.StockQuantity)
+                    </th>
+                    <th>
+                        <i class="bi bi-cart-fill me-2"></i> @Html.DisplayNameFor(model => model.OrderedQuantity)
+                    </th>
+                    <th>
+                        <i class="bi bi-check-circle-fill me-2"></i> @Html.DisplayNameFor(model => model.Status)
+                    </th>
+                    <th>
+                        <i class="bi bi-image-fill me-2"></i> @Html.DisplayNameFor(model => model.CoverImageUrl)
+                    </th>
+                    <th>
+                        <i class="bi bi-tag-fill me-2"></i> @Html.DisplayNameFor(model => model.Category)
+                    </th>
+                    <th>
+                        <i class="bi bi-building-fill me-2"></i> @Html.DisplayNameFor(model => model.Publisher)
+                    </th>
+                    <th class="text-center"><i class="bi bi-gear-fill me-2"></i> Thao tác</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.BookTitle)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Author)
+                        </td>
+                        <td style="max-width: 200px; overflow: hidden; text-overflow: ellipsis;">
+                            @Html.DisplayFor(modelItem => item.Description)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Price)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.StockQuantity)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.OrderedQuantity)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Status)
+                        </td>
+                        <td>
+                            <img src="@Html.DisplayFor(modelItem => item.CoverImageUrl)" alt="Bìa sách" style="max-width: 50px; height: auto;">
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Category.CategoryName)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Publisher.PublisherName)
+                        </td>
+                        <td class="text-center">
+                            <a asp-action="Edit" asp-route-id="@item.BookId" class="btn btn-sm btn-warning"><i class="bi bi-pencil-square me-1"></i> Sửa</a>
+                            <a asp-action="Details" asp-route-id="@item.BookId" class="btn btn-sm btn-info ms-2"><i class="bi bi-info-circle-fill me-1"></i> Chi tiết</a>
+                            <a asp-action="Delete" asp-route-id="@item.BookId" class="btn btn-sm btn-danger ms-2"><i class="bi bi-trash-fill me-1"></i> Xóa</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+<style>
+    .btn-primary {
+        background-color: #fb5353;
+        border-color: #fb5353;
+    }
+
+        .btn-primary:hover {
+            background-color: #d94242;
+            border-color: #d94242;
+        }
+
+    .bg-danger {
+        background-color: #fb5353 !important;
+    }
+
+    .text-danger {
+        color: #fb5353 !important;
+    }
+</style>

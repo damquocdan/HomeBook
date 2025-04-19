@@ -1,0 +1,244 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic');
+
+/* Reset và các quy t?c c? b?n */
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #404040;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: #010101;
+    transition: all 0.6s ease;
+}
+
+a:hover {
+    color: #fb5353;
+}
+
+.clearfix {
+    clear: both;
+}
+
+/* Header */
+/* Dành cho desktop */
+
+.about-content {
+    background-color: #fb5353;
+    padding-top: 57px;
+    padding-left: 70px;
+    padding-right: 67px;
+    padding-bottom: 58px;
+}
+/* Main Content */
+main[role="main-home-wrapper"] {
+    padding-bottom: 90px;
+}
+
+main[role="main-home-wrapper"] article[role="pge-title-content"] {
+    padding-left: 41px;
+}
+
+main[role="main-home-wrapper"] article[role="pge-title-content"] header {
+    padding: 83px 0 19px;
+}
+
+main[role="main-home-wrapper"] article[role="pge-title-content"] header h2 {
+    font-size: 46px;
+    line-height: 53px;
+    font-weight: 800;
+    color: #404040;
+}
+
+main[role="main-home-wrapper"] article[role="pge-title-content"] header h2 span {
+    display: block;
+    font-size: 80px;
+    color: #fb5353;
+    padding-bottom: 15px;
+}
+
+main[role="main-home-wrapper"] article[role="pge-title-content"] p {
+    font-size: 20px;
+    line-height: 30px;
+    color: #454545;
+}
+
+/* Grid và Effect Oscar */
+.grid {
+    overflow: visible;
+}
+
+.grid .row {
+    margin: 0 -15px;
+}
+
+.grid figure {
+    margin: 15px 0;
+}
+
+figure.effect-oscar {
+    position: relative;
+    overflow: hidden;
+    background: #fff;
+}
+
+figure.effect-oscar img {
+    transition: all 0.6s ease;
+    width: 100%;
+    height: auto;
+}
+
+figure.effect-oscar figcaption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(251, 83, 83, 0.9);
+    color: #fff;
+    padding: 16px;
+    text-align: center;
+    opacity: 1;
+    transition: all 0.6s ease;
+}
+
+figure.effect-oscar:hover img {
+    transform: scale(1.08);
+    opacity: 0.5;
+}
+
+figure.effect-oscar figcaption h2 {
+    font-size: 21px;
+    margin: 0;
+    font-weight: 300;
+}
+
+figure.effect-oscar figcaption h2 span {
+    font-weight: 800;
+}
+
+figure.effect-oscar figcaption p {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+figure.effect-oscar figcaption a {
+    color: #fff;
+    text-decoration: underline;
+    font-size: 14px;
+}
+
+figure.effect-oscar figcaption a:hover {
+    color: #ddd;
+}
+
+/* Footer */
+footer[role="footer"] {
+    background-color: #fff;
+    padding: 100px 0 77px;
+    text-align: center;
+}
+
+footer[role="footer"] > h1 a {
+    margin: 0 auto;
+    display: block;
+    max-width: 66px;
+}
+
+footer[role="footer"] nav {
+    padding: 37px 0 43px;
+}
+
+footer[role="footer"] nav ul {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+footer[role="footer"] nav ul li {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin: 0 13px;
+}
+
+footer[role="footer"] nav ul li a {
+    color: #9d9d9d;
+}
+
+footer[role="footer"] nav ul li a:hover {
+    color: #fb5353;
+}
+
+footer[role="footer"] ul[role="social-icons"] {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+footer[role="footer"] ul[role="social-icons"] li {
+    display: inline-block;
+    margin: 0 6.5px;
+}
+
+footer[role="footer"] ul[role="social-icons"] li a {
+    display: block;
+    width: 42px;
+    height: 42px;
+    background-color: #bbbbbb;
+    color: #fff;
+    line-height: 42px;
+    font-size: 20px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+footer[role="footer"] ul[role="social-icons"] li a:hover {
+    background-color: #fb5353;
+}
+
+footer[role="footer"] .copy-right {
+    text-align: center;
+    font-size: 12px;
+    line-height: 13px;
+    color: #9c9c9c;
+}
+
+/* Responsive */
+@media (max-width: 767px) {
+    main[role="main-home-wrapper"] article[role="pge-title-content"] {
+        padding-left: 15px;
+    }
+
+    figure.effect-oscar figcaption {
+        padding: 10px;
+    }
+
+    figure.effect-oscar figcaption h2 {
+        font-size: 18px;
+    }
+
+    figure.effect-oscar figcaption p {
+        font-size: 12px;
+    }
+}

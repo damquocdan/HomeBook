@@ -22,7 +22,7 @@ namespace HomeBook.Areas.AdminHomeBook.Controllers
         // GET: AdminHomeBook/OrderDetails
         public async Task<IActionResult> Index()
         {
-            var homeBookContext = _context.OrderDetails.Include(o => o.Book).Include(o => o.Order);
+            var homeBookContext = _context.OrderDetails.Include(o => o.Book).Include(o => o.Order).Include(o => o.Order.Customer);
             return View(await homeBookContext.ToListAsync());
         }
 
@@ -36,7 +36,7 @@ namespace HomeBook.Areas.AdminHomeBook.Controllers
 
             var orderDetail = await _context.OrderDetails
                 .Include(o => o.Book)
-                .Include(o => o.Order)
+                .Include(o => o.Order).Include(o => o.Order.Customer.FullName)
                 .FirstOrDefaultAsync(m => m.OrderDetailId == id);
             if (orderDetail == null)
             {

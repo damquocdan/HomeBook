@@ -1,54 +1,83 @@
 ﻿@model HomeBook.Models.Publisher
 
 @{
-    ViewData["Title"] = "Create";
+    ViewData["Title"] = "Tạo mới nhà xuất bản";
     Layout = "~/Areas/AdminHomeBook/Views/Shared/Admin.cshtml";
 }
 
-<h1>Create</h1>
+<div>
+    <h1 class="mb-4 text-danger"><i class="bi bi-building-fill me-2"></i> Tạo mới nhà xuất bản</h1>
 
-<h4>Publisher</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="Create">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="PublisherName" class="control-label"></label>
-                <input asp-for="PublisherName" class="form-control" />
-                <span asp-validation-for="PublisherName" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="ContactPerson" class="control-label"></label>
-                <input asp-for="ContactPerson" class="form-control" />
-                <span asp-validation-for="ContactPerson" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Email" class="control-label"></label>
-                <input asp-for="Email" class="form-control" />
-                <span asp-validation-for="Email" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Phone" class="control-label"></label>
-                <input asp-for="Phone" class="form-control" />
-                <span asp-validation-for="Phone" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Address" class="control-label"></label>
-                <input asp-for="Address" class="form-control" />
-                <span asp-validation-for="Address" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
-            </div>
-        </form>
+    <hr class="border-danger mb-4" />
+
+    <div class="row">
+        <div class="col-md-6">
+            <form asp-action="Create">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                <div class="mb-3">
+                    <label asp-for="PublisherName" class="form-label"><i class="bi bi-fonts me-2"></i> Tên nhà xuất bản</label>
+                    <input asp-for="PublisherName" class="form-control" />
+                    <span asp-validation-for="PublisherName" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="ContactPerson" class="form-label"><i class="bi bi-person-fill me-2"></i> Người liên hệ</label>
+                    <input asp-for="ContactPerson" class="form-control" />
+                    <span asp-validation-for="ContactPerson" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="Email" class="form-label"><i class="bi bi-envelope-fill me-2"></i> Email</label>
+                    <input asp-for="Email" class="form-control" />
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="Phone" class="form-label"><i class="bi bi-telephone-fill me-2"></i> Điện thoại</label>
+                    <input asp-for="Phone" class="form-control" />
+                    <span asp-validation-for="Phone" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="Address" class="form-label"><i class="bi bi-house-fill me-2"></i> Địa chỉ</label>
+                    <input asp-for="Address" class="form-control" />
+                    <span asp-validation-for="Address" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <button type="submit" class="btn btn-danger"><i class="bi bi-plus-square-fill me-2"></i> Tạo mới</button>
+                    <a asp-action="Index" class="btn btn-secondary ms-2"><i class="bi bi-arrow-left-circle-fill me-2"></i> Quay lại danh sách</a>
+                </div>
+            </form>
+        </div>
     </div>
 </div>
 
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+<style>
+    .btn-danger {
+        background-color: #fb5353;
+        border-color: #fb5353;
+    }
+
+        .btn-danger:hover {
+            background-color: #d94242;
+            border-color: #d94242;
+        }
+
+    .border-danger {
+        border-color: #fb5353 !important;
+        border-width: 2px;
+    }
+
+    .text-danger {
+        color: #fb5353 !important;
+    }
+</style>
 
 @section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
 }

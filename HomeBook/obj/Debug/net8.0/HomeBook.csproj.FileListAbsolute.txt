@@ -262,3 +262,4 @@ E:\DATN\HomeBook\HomeBook\bin\Debug\net8.0\runtimes\win\lib\net7.0\Microsoft.Win
 E:\DATN\HomeBook\HomeBook\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
 E:\DATN\HomeBook\HomeBook\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
 E:\DATN\HomeBook\HomeBook\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+E:\DATN\HomeBook\HomeBook\obj\Debug\net8.0\HomeBook.sourcelink.json

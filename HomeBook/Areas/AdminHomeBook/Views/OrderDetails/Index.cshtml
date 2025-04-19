@@ -1,54 +1,87 @@
 ﻿@model IEnumerable<HomeBook.Models.OrderDetail>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Danh sách chi tiết đơn hàng";
     Layout = "~/Areas/AdminHomeBook/Views/Shared/Admin.cshtml";
 }
 
-<h1>Index</h1>
+<div>
+    <h1 class="mb-4 text-danger"><i class="bi bi-list-ul me-2"></i> Danh sách chi tiết đơn hàng</h1>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Quantity)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Price)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Book)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Order)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Quantity)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Price)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Book.BookId)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Order.OrderId)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.OrderDetailId">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.OrderDetailId">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.OrderDetailId">Delete</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+    <p>
+        <a asp-action="Create" class="btn btn-primary"><i class="bi bi-plus-square-fill me-2"></i> Thêm mới</a>
+    </p>
+
+    <div class="table-responsive">
+        <table class="table table-bordered table-striped">
+            <thead class="bg-danger text-white">
+                <tr>
+                    <th>
+                        <i class="bi bi-hash me-2"></i> @Html.DisplayNameFor(model => model.Quantity)
+                    </th>
+                    <th>
+                        <i class="bi bi-tag-fill me-2"></i> @Html.DisplayNameFor(model => model.Price)
+                    </th>
+                    <th>
+                        <i class="bi bi-book-fill me-2"></i> @Html.DisplayNameFor(model => model.Book)
+                    </th>
+                    <th>
+                        Khách hàng
+                    </th>
+                    <th>
+                        Trạng thái
+                    </th>
+                    <th class="text-center"><i class="bi bi-gear-fill me-2"></i> Thao tác</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Quantity)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Price)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Book.BookTitle)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Order.Customer.FullName)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Order.Status)
+                        </td>
+                        <td class="text-center">
+                            <a asp-action="Edit" asp-route-id="@item.OrderDetailId" class="btn btn-sm btn-warning"><i class="bi bi-pencil-square me-1"></i> Sửa</a>
+                            <a asp-action="Details" asp-route-id="@item.OrderDetailId" class="btn btn-sm btn-info ms-2"><i class="bi bi-info-circle-fill me-1"></i> Chi tiết</a>
+                            <a asp-action="Delete" asp-route-id="@item.OrderDetailId" class="btn btn-sm btn-danger ms-2"><i class="bi bi-trash-fill me-1"></i> Xóa</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+<style>
+    .btn-primary {
+        background-color: #fb5353;
+        border-color: #fb5353;
+    }
+
+        .btn-primary:hover {
+            background-color: #d94242;
+            border-color: #d94242;
+        }
+
+    .bg-danger {
+        background-color: #fb5353 !important;
+    }
+
+    .text-danger {
+        color: #fb5353 !important;
+    }
+</style>

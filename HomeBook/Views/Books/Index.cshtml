@@ -1,0 +1,198 @@
+﻿@model IEnumerable<HomeBook.Models.Book>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <article role="pge-title-content" class="blog-header">
+                <header>
+                    <h2><span>HomeBook</span> Danh Mục Sách</h2>
+                </header>
+                <p>Khám phá bộ sưu tập sách đa dạng của chúng tôi, từ tiểu thuyết đến sách chuyên ngành, tất cả được quản lý dễ dàng với HomeBook.</p>
+            </article>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+            <ul class="grid-lod effect-2" id="grid">
+                @{
+                    int leftColumnCount = 0;
+                    foreach (var item in Model)
+                    {
+                        if (leftColumnCount < 5) // Hiển thị 5 sách ở cột trái
+                        {
+                            <li class="shown">
+                                <section class="blog-content">
+                                    <a asp-action="Details" asp-route-id="@item.BookId">
+                                        <figure>
+                                            <div class="post-date">
+                                                <span>@item.Price</span> VND
+                                            </div>
+                                            <img src="@item.CoverImageUrl" alt="@item.BookTitle" class="img-responsive" />
+                                        </figure>
+                                    </a>
+                                    <article>
+                                        <h4>@item.BookTitle</h4>
+                                        <p><strong>Tác giả:</strong> @item.Author</p>
+                                        <p><strong>Mô tả:</strong> @(item.Description ?? "Không có mô tả")</p>
+                                        <p><strong>Danh mục:</strong> @(item.Category?.CategoryName.ToString() ?? "Không xác định")</p>
+                                        <p><strong>Nhà xuất bản:</strong> @(item.Publisher?.PublisherName.ToString() ?? "Không xác định")</p>
+                                        <a asp-controller="Carts" asp-action="Add" asp-route-id="@item.BookId" asp-route-customerId="@Context.Session.GetInt32("CustomerId")" class="btn btn-primary btn-sm">Thêm vào giỏ</a>
+                                    </article>
+                                </section>
+                            </li>
+                            leftColumnCount++;
+                        }
+                    }
+                }
+            </ul>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+            <ul class="grid-lod effect-2" id="grid">
+                @{
+                    int rightColumnCount = 0;
+                    foreach (var item in Model.Skip(5)) // Bỏ qua 5 sách đầu để hiển thị tiếp ở cột phải
+                    {
+                        if (rightColumnCount < 6) // Hiển thị 6 sách ở cột phải
+                        {
+                            <li class="shown">
+                                <section class="blog-content">
+                                    <a asp-action="Details" asp-route-id="@item.BookId">
+                                        <figure>
+                                            <div class="post-date">
+                                                <span>@item.Price</span> VND
+                                            </div>
+                                            <img src="@item.CoverImageUrl" alt="@item.BookTitle" class="img-responsive" />
+                                        </figure>
+                                    </a>
+                                    <article>
+                                        <h4>@item.BookTitle</h4>
+                                        <p><strong>Tác giả:</strong> @item.Author</p>
+                                        <p><strong>Mô tả:</strong> @(item.Description ?? "Không có mô tả")</p>
+                                        <p><strong>Danh mục:</strong> @(item.Category?.CategoryName.ToString() ?? "Không xác định")</p>
+                                        <p><strong>Nhà xuất bản:</strong> @(item.Publisher?.PublisherName.ToString() ?? "Không xác định")</p>
+                                        <a asp-controller="Carts" asp-action="Add" asp-route-id="@item.BookId" asp-route-customerId="@Context.Session.GetInt32("CustomerId")" class="btn btn-primary btn-sm">Thêm vào giỏ</a>
+                                    </article>
+                                </section>
+                            </li>
+                            rightColumnCount++;
+                        }
+                    }
+                }
+            </ul>
+        </div>
+    </div>
+</div>
+
+<style>
+    .blog-header {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+        .blog-header h2 {
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #333;
+        }
+
+            .blog-header h2 span {
+                color: #007bff;
+            }
+
+        .blog-header p {
+            font-size: 1.2em;
+            color: #666;
+        }
+
+    .grid-lod {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+        .grid-lod li {
+            flex: 1 1 calc(50% - 20px);
+            box-sizing: border-box;
+        }
+
+    .blog-content {
+        background: #fff;
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease;
+    }
+
+        .blog-content:hover {
+            transform: translateY(-5px);
+        }
+
+        .blog-content figure {
+            position: relative;
+            margin: 0;
+        }
+
+        .blog-content img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+    .post-date {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        background: #007bff;
+        color: #fff;
+        padding: 5px 10px;
+        border-radius: 4px;
+        font-size: 0.9em;
+    }
+
+    .blog-content article {
+        padding: 15px;
+        font-size: 1em;
+        color: #333;
+    }
+
+        .blog-content article h4 {
+            font-size: 1.3em;
+            margin: 0 0 10px;
+            color: #333;
+        }
+
+        .blog-content article p {
+            margin: 5px 0;
+            font-size: 0.95em;
+        }
+
+    .btn-primary {
+        background: #007bff;
+        border: none;
+        padding: 8px 16px;
+        border-radius: 4px;
+        color: #fff;
+        text-decoration: none;
+        display: inline-block;
+        margin-top: 10px;
+    }
+
+        .btn-primary:hover {
+            background: #0056b3;
+        }
+
+    @@media (max-width: 768px) {
+        .grid-lod li {
+            flex: 1 1 100%;
+        }
+    }
+</style>

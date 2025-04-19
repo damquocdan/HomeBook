@@ -3,6 +3,354 @@
   "WorkspaceRootPath": "E:\\DATN\\HomeBook\\HomeBook\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|e:\\datn\\homebook\\homebook\\views\\carts\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|solutionrelative:views\\carts\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|e:\\datn\\homebook\\homebook\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|solutionrelative:models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|e:\\datn\\homebook\\homebook\\models\\loginc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|solutionrelative:models\\loginc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|e:\\datn\\homebook\\homebook\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|solutionrelative:models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|e:\\datn\\homebook\\homebook\\models\\homebookcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|solutionrelative:models\\homebookcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|e:\\datn\\homebook\\homebook\\areas\\adminhomebook\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|solutionrelative:areas\\adminhomebook\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|e:\\datn\\homebook\\homebook\\areas\\adminhomebook\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|solutionrelative:areas\\adminhomebook\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|e:\\datn\\homebook\\homebook\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|e:\\datn\\homebook\\homebook\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|e:\\datn\\homebook\\homebook\\areas\\adminhomebook\\views\\books\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|solutionrelative:areas\\adminhomebook\\views\\books\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|e:\\datn\\homebook\\homebook\\areas\\adminhomebook\\views\\shared\\admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|solutionrelative:areas\\adminhomebook\\views\\shared\\admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|e:\\datn\\homebook\\homebook\\areas\\adminhomebook\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|solutionrelative:areas\\adminhomebook\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|e:\\datn\\homebook\\homebook\\areas\\adminhomebook\\views\\books\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|solutionrelative:areas\\adminhomebook\\views\\books\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|e:\\datn\\homebook\\homebook\\areas\\adminhomebook\\views\\books\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|solutionrelative:areas\\adminhomebook\\views\\books\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|e:\\datn\\homebook\\homebook\\areas\\adminhomebook\\views\\orderdetails\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|solutionrelative:areas\\adminhomebook\\views\\orderdetails\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|e:\\datn\\homebook\\homebook\\areas\\adminhomebook\\controllers\\orderdetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|solutionrelative:areas\\adminhomebook\\controllers\\orderdetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|e:\\datn\\homebook\\homebook\\areas\\adminhomebook\\views\\shared\\_sidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|solutionrelative:areas\\adminhomebook\\views\\shared\\_sidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|e:\\datn\\homebook\\homebook\\areas\\adminhomebook\\views\\orders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|solutionrelative:areas\\adminhomebook\\views\\orders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|e:\\datn\\homebook\\homebook\\areas\\adminhomebook\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|solutionrelative:areas\\adminhomebook\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|e:\\datn\\homebook\\homebook\\areas\\adminhomebook\\views\\categories\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|solutionrelative:areas\\adminhomebook\\views\\categories\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|e:\\datn\\homebook\\homebook\\areas\\adminhomebook\\views\\customers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|solutionrelative:areas\\adminhomebook\\views\\customers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|e:\\datn\\homebook\\homebook\\areas\\adminhomebook\\views\\orders\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|solutionrelative:areas\\adminhomebook\\views\\orders\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|e:\\datn\\homebook\\homebook\\areas\\adminhomebook\\views\\publishers\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|solutionrelative:areas\\adminhomebook\\views\\publishers\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|e:\\datn\\homebook\\homebook\\areas\\adminhomebook\\views\\publishers\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|solutionrelative:areas\\adminhomebook\\views\\publishers\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|e:\\datn\\homebook\\homebook\\areas\\adminhomebook\\views\\reviews\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|solutionrelative:areas\\adminhomebook\\views\\reviews\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|e:\\datn\\homebook\\homebook\\areas\\adminhomebook\\views\\reviews\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|solutionrelative:areas\\adminhomebook\\views\\reviews\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|e:\\datn\\homebook\\homebook\\areas\\adminhomebook\\views\\reviews\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|solutionrelative:areas\\adminhomebook\\views\\reviews\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|e:\\datn\\homebook\\homebook\\areas\\adminhomebook\\views\\reviews\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|solutionrelative:areas\\adminhomebook\\views\\reviews\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|e:\\datn\\homebook\\homebook\\areas\\adminhomebook\\views\\publishers\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|solutionrelative:areas\\adminhomebook\\views\\publishers\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|e:\\datn\\homebook\\homebook\\areas\\adminhomebook\\views\\publishers\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|solutionrelative:areas\\adminhomebook\\views\\publishers\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|e:\\datn\\homebook\\homebook\\areas\\adminhomebook\\views\\publishers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|solutionrelative:areas\\adminhomebook\\views\\publishers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|e:\\datn\\homebook\\homebook\\areas\\adminhomebook\\views\\contacts\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|solutionrelative:areas\\adminhomebook\\views\\contacts\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|e:\\datn\\homebook\\homebook\\areas\\adminhomebook\\views\\contacts\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|solutionrelative:areas\\adminhomebook\\views\\contacts\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|e:\\datn\\homebook\\homebook\\areas\\adminhomebook\\views\\books\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|solutionrelative:areas\\adminhomebook\\views\\books\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|e:\\datn\\homebook\\homebook\\areas\\adminhomebook\\views\\books\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|solutionrelative:areas\\adminhomebook\\views\\books\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|e:\\datn\\homebook\\homebook\\areas\\adminhomebook\\views\\customers\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|solutionrelative:areas\\adminhomebook\\views\\customers\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|e:\\datn\\homebook\\homebook\\areas\\adminhomebook\\views\\customers\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|solutionrelative:areas\\adminhomebook\\views\\customers\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|e:\\datn\\homebook\\homebook\\areas\\adminhomebook\\views\\customers\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|solutionrelative:areas\\adminhomebook\\views\\customers\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|e:\\datn\\homebook\\homebook\\areas\\adminhomebook\\views\\customers\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|solutionrelative:areas\\adminhomebook\\views\\customers\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|e:\\datn\\homebook\\homebook\\areas\\adminhomebook\\views\\reviews\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|solutionrelative:areas\\adminhomebook\\views\\reviews\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|e:\\datn\\homebook\\homebook\\areas\\adminhomebook\\views\\admins\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|solutionrelative:areas\\adminhomebook\\views\\admins\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|e:\\datn\\homebook\\homebook\\areas\\adminhomebook\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|solutionrelative:areas\\adminhomebook\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|e:\\datn\\homebook\\homebook\\areas\\adminhomebook\\views\\contacts\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|solutionrelative:areas\\adminhomebook\\views\\contacts\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|e:\\datn\\homebook\\homebook\\areas\\adminhomebook\\views\\contacts\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|solutionrelative:areas\\adminhomebook\\views\\contacts\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|e:\\datn\\homebook\\homebook\\areas\\adminhomebook\\views\\categories\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|solutionrelative:areas\\adminhomebook\\views\\categories\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|e:\\datn\\homebook\\homebook\\areas\\adminhomebook\\views\\categories\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|solutionrelative:areas\\adminhomebook\\views\\categories\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|e:\\datn\\homebook\\homebook\\areas\\adminhomebook\\views\\categories\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|solutionrelative:areas\\adminhomebook\\views\\categories\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|e:\\datn\\homebook\\homebook\\areas\\adminhomebook\\views\\admins\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|solutionrelative:areas\\adminhomebook\\views\\admins\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|e:\\datn\\homebook\\homebook\\areas\\adminhomebook\\views\\admins\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|solutionrelative:areas\\adminhomebook\\views\\admins\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|e:\\datn\\homebook\\homebook\\areas\\adminhomebook\\views\\admins\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|solutionrelative:areas\\adminhomebook\\views\\admins\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|e:\\datn\\homebook\\homebook\\areas\\adminhomebook\\views\\admins\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|solutionrelative:areas\\adminhomebook\\views\\admins\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|e:\\datn\\homebook\\homebook\\views\\customers\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|solutionrelative:views\\customers\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|e:\\datn\\homebook\\homebook\\views\\books\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|solutionrelative:views\\books\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|e:\\datn\\homebook\\homebook\\controllers\\cartscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|solutionrelative:controllers\\cartscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|e:\\datn\\homebook\\homebook\\views\\books\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|solutionrelative:views\\books\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|e:\\datn\\homebook\\homebook\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|e:\\datn\\homebook\\homebook\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|solutionrelative:wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|e:\\datn\\homebook\\homebook\\views\\books\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|solutionrelative:views\\books\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|e:\\datn\\homebook\\homebook\\views\\books\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|solutionrelative:views\\books\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|e:\\datn\\homebook\\homebook\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|solutionrelative:controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|e:\\datn\\homebook\\homebook\\views\\customers\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|solutionrelative:views\\customers\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|e:\\datn\\homebook\\homebook\\views\\contacts\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|solutionrelative:views\\contacts\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|e:\\datn\\homebook\\homebook\\views\\loginc\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|solutionrelative:views\\loginc\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|e:\\datn\\homebook\\homebook\\views\\contacts\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|solutionrelative:views\\contacts\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|e:\\datn\\homebook\\homebook\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|solutionrelative:views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|e:\\datn\\homebook\\homebook\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|e:\\datn\\homebook\\homebook\\controllers\\reviewscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|solutionrelative:controllers\\reviewscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|e:\\datn\\homebook\\homebook\\controllers\\orderdetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|solutionrelative:controllers\\orderdetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|e:\\datn\\homebook\\homebook\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|solutionrelative:controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|e:\\datn\\homebook\\homebook\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|solutionrelative:controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|e:\\datn\\homebook\\homebook\\controllers\\contactscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|solutionrelative:controllers\\contactscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|e:\\datn\\homebook\\homebook\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|solutionrelative:wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|e:\\datn\\homebook\\homebook\\wwwroot\\js\\custom.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|solutionrelative:wwwroot\\js\\custom.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|e:\\datn\\homebook\\homebook\\wwwroot\\js\\maps.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|solutionrelative:wwwroot\\js\\maps.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|e:\\datn\\homebook\\homebook\\wwwroot\\js\\nav.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|solutionrelative:wwwroot\\js\\nav.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|e:\\datn\\homebook\\homebook\\wwwroot\\css\\effects\\component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|solutionrelative:wwwroot\\css\\effects\\component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|e:\\datn\\homebook\\homebook\\wwwroot\\css\\effects\\normalize.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|solutionrelative:wwwroot\\css\\effects\\normalize.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|e:\\datn\\homebook\\homebook\\wwwroot\\css\\effects\\set2.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|solutionrelative:wwwroot\\css\\effects\\set2.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|e:\\datn\\homebook\\homebook\\wwwroot\\css\\font-awesome.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|solutionrelative:wwwroot\\css\\font-awesome.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|e:\\datn\\homebook\\homebook\\wwwroot\\css\\responsive.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|solutionrelative:wwwroot\\css\\responsive.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|e:\\datn\\homebook\\homebook\\areas\\adminhomebook\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|solutionrelative:areas\\adminhomebook\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|e:\\datn\\homebook\\homebook\\areas\\adminhomebook\\controllers\\contactscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|solutionrelative:areas\\adminhomebook\\controllers\\contactscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|e:\\datn\\homebook\\homebook\\areas\\adminhomebook\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|solutionrelative:areas\\adminhomebook\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|e:\\datn\\homebook\\homebook\\areas\\adminhomebook\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|solutionrelative:areas\\adminhomebook\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|e:\\datn\\homebook\\homebook\\areas\\adminhomebook\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|solutionrelative:areas\\adminhomebook\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|e:\\datn\\homebook\\homebook\\areas\\adminhomebook\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|solutionrelative:areas\\adminhomebook\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|e:\\datn\\homebook\\homebook\\areas\\adminhomebook\\controllers\\adminscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|solutionrelative:areas\\adminhomebook\\controllers\\adminscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|e:\\datn\\homebook\\homebook\\areas\\adminhomebook\\controllers\\statisticscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|solutionrelative:areas\\adminhomebook\\controllers\\statisticscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,36 +363,8 @@
       "RelativeMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|solutionrelative:areas\\adminhomebook\\controllers\\publisherscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|e:\\datn\\homebook\\homebook\\areas\\adminhomebook\\controllers\\orderdetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|solutionrelative:areas\\adminhomebook\\controllers\\orderdetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|e:\\datn\\homebook\\homebook\\areas\\adminhomebook\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|solutionrelative:areas\\adminhomebook\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|e:\\datn\\homebook\\homebook\\areas\\adminhomebook\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|solutionrelative:areas\\adminhomebook\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|e:\\datn\\homebook\\homebook\\areas\\adminhomebook\\controllers\\contactscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|solutionrelative:areas\\adminhomebook\\controllers\\contactscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|e:\\datn\\homebook\\homebook\\areas\\adminhomebook\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|solutionrelative:areas\\adminhomebook\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|e:\\datn\\homebook\\homebook\\areas\\adminhomebook\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|solutionrelative:areas\\adminhomebook\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|e:\\datn\\homebook\\homebook\\areas\\adminhomebook\\controllers\\adminscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|solutionrelative:areas\\adminhomebook\\controllers\\adminscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|e:\\datn\\homebook\\homebook\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|e:\\datn\\homebook\\homebook\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -59,16 +379,8 @@
       "RelativeMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|solutionrelative:areas\\adminhomebook\\views\\shared\\_preloader.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|e:\\datn\\homebook\\homebook\\areas\\adminhomebook\\views\\shared\\_sidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|solutionrelative:areas\\adminhomebook\\views\\shared\\_sidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|e:\\datn\\homebook\\homebook\\areas\\adminhomebook\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|solutionrelative:areas\\adminhomebook\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|e:\\datn\\homebook\\homebook\\areas\\adminhomebook\\views\\shared\\admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|solutionrelative:areas\\adminhomebook\\views\\shared\\admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|e:\\datn\\homebook\\homebook\\areas\\adminhomebook\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -79,40 +391,8 @@
       "RelativeMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|solutionrelative:areas\\adminhomebook\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|e:\\datn\\homebook\\homebook\\areas\\adminhomebook\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|solutionrelative:areas\\adminhomebook\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|e:\\datn\\homebook\\homebook\\areas\\adminhomebook\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|solutionrelative:areas\\adminhomebook\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|e:\\datn\\homebook\\homebook\\areas\\adminhomebook\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|solutionrelative:areas\\adminhomebook\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|e:\\datn\\homebook\\homebook\\areas\\adminhomebook\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|solutionrelative:areas\\adminhomebook\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|e:\\datn\\homebook\\homebook\\areas\\adminhomebook\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|solutionrelative:areas\\adminhomebook\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|e:\\datn\\homebook\\homebook\\areas\\adminhomebook\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|solutionrelative:areas\\adminhomebook\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|e:\\datn\\homebook\\homebook\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|e:\\datn\\homebook\\homebook\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|solutionrelative:scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|e:\\datn\\homebook\\homebook\\models\u200B\\homebookcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68CC0EBF-4FB3-40B6-AAC8-81525B8A23E5}|HomeBook.csproj|solutionrelative:models\u200B\\homebookcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -122,7 +402,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 562,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -142,72 +422,975 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "StatisticsController.cs",
-              "DocumentMoniker": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Controllers\\StatisticsController.cs",
-              "RelativeDocumentMoniker": "Areas\\AdminHomeBook\\Controllers\\StatisticsController.cs",
-              "ToolTip": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Controllers\\StatisticsController.cs",
-              "RelativeToolTip": "Areas\\AdminHomeBook\\Controllers\\StatisticsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-01T10:09:21.017Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ReviewsController.cs",
-              "DocumentMoniker": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Controllers\\ReviewsController.cs",
-              "RelativeDocumentMoniker": "Areas\\AdminHomeBook\\Controllers\\ReviewsController.cs",
-              "ToolTip": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Controllers\\ReviewsController.cs",
-              "RelativeToolTip": "Areas\\AdminHomeBook\\Controllers\\ReviewsController.cs",
+              "Title": "Cart.cs",
+              "DocumentMoniker": "E:\\DATN\\HomeBook\\HomeBook\\Models\\Cart.cs",
+              "RelativeDocumentMoniker": "Models\\Cart.cs",
+              "ToolTip": "E:\\DATN\\HomeBook\\HomeBook\\Models\\Cart.cs",
+              "RelativeToolTip": "Models\\Cart.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-01T10:08:19.78Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PublishersController.cs",
-              "DocumentMoniker": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Controllers\\PublishersController.cs",
-              "RelativeDocumentMoniker": "Areas\\AdminHomeBook\\Controllers\\PublishersController.cs",
-              "ToolTip": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Controllers\\PublishersController.cs",
-              "RelativeToolTip": "Areas\\AdminHomeBook\\Controllers\\PublishersController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-01T10:07:22.326Z",
+              "WhenOpened": "2025-04-18T08:18:36.144Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "OrderDetailsController.cs",
-              "DocumentMoniker": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Controllers\\OrderDetailsController.cs",
-              "RelativeDocumentMoniker": "Areas\\AdminHomeBook\\Controllers\\OrderDetailsController.cs",
-              "ToolTip": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Controllers\\OrderDetailsController.cs",
-              "RelativeToolTip": "Areas\\AdminHomeBook\\Controllers\\OrderDetailsController.cs",
+              "Title": "Customer.cs",
+              "DocumentMoniker": "E:\\DATN\\HomeBook\\HomeBook\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "Models\\Customer.cs",
+              "ToolTip": "E:\\DATN\\HomeBook\\HomeBook\\Models\\Customer.cs",
+              "RelativeToolTip": "Models\\Customer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-01T10:06:14.896Z",
+              "WhenOpened": "2025-04-18T08:18:19.326Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "OrdersController.cs",
-              "DocumentMoniker": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Controllers\\OrdersController.cs",
-              "RelativeDocumentMoniker": "Areas\\AdminHomeBook\\Controllers\\OrdersController.cs",
-              "ToolTip": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Controllers\\OrdersController.cs",
-              "RelativeToolTip": "Areas\\AdminHomeBook\\Controllers\\OrdersController.cs",
+              "Title": "HomeBookContext.cs",
+              "DocumentMoniker": "E:\\DATN\\HomeBook\\HomeBook\\Models\\HomeBookContext.cs",
+              "RelativeDocumentMoniker": "Models\\HomeBookContext.cs",
+              "ToolTip": "E:\\DATN\\HomeBook\\HomeBook\\Models\\HomeBookContext.cs",
+              "RelativeToolTip": "Models\\HomeBookContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-01T10:05:28.315Z",
+              "WhenOpened": "2025-04-18T08:17:39.233Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Views\\Books\\Create.cshtml",
+              "RelativeDocumentMoniker": "Areas\\AdminHomeBook\\Views\\Books\\Create.cshtml",
+              "ToolTip": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Views\\Books\\Create.cshtml",
+              "RelativeToolTip": "Areas\\AdminHomeBook\\Views\\Books\\Create.cshtml",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAEEAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-18T03:52:42.162Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BooksController.cs",
+              "DocumentMoniker": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Controllers\\BooksController.cs",
+              "RelativeDocumentMoniker": "Areas\\AdminHomeBook\\Controllers\\BooksController.cs",
+              "ToolTip": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Controllers\\BooksController.cs",
+              "RelativeToolTip": "Areas\\AdminHomeBook\\Controllers\\BooksController.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAIwIMAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T10:00:01.822Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\DATN\\HomeBook\\HomeBook\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "E:\\DATN\\HomeBook\\HomeBook\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAACBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-01T09:48:47.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "Areas\\AdminHomeBook\\Controllers\\DashboardController.cs",
+              "ToolTip": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "Areas\\AdminHomeBook\\Controllers\\DashboardController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAcAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T09:54:24.435Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\DATN\\HomeBook\\HomeBook\\Views\\Carts\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Carts\\Index.cshtml",
+              "ToolTip": "E:\\DATN\\HomeBook\\HomeBook\\Views\\Carts\\Index.cshtml",
+              "RelativeToolTip": "Views\\Carts\\Index.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAApwBkAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-18T08:05:12.642Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginC.cs",
+              "DocumentMoniker": "E:\\DATN\\HomeBook\\HomeBook\\Models\\LoginC.cs",
+              "RelativeDocumentMoniker": "Models\\LoginC.cs",
+              "ToolTip": "E:\\DATN\\HomeBook\\HomeBook\\Models\\LoginC.cs",
+              "RelativeToolTip": "Models\\LoginC.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T03:25:08.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "OrderDetailsController.cs",
+              "DocumentMoniker": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Controllers\\OrderDetailsController.cs",
+              "RelativeDocumentMoniker": "Areas\\AdminHomeBook\\Controllers\\OrderDetailsController.cs",
+              "ToolTip": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Controllers\\OrderDetailsController.cs",
+              "RelativeToolTip": "Areas\\AdminHomeBook\\Controllers\\OrderDetailsController.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAwwBgAAACAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T10:06:14.896Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Views\\OrderDetails\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\AdminHomeBook\\Views\\OrderDetails\\Index.cshtml",
+              "ToolTip": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Views\\OrderDetails\\Index.cshtml",
+              "RelativeToolTip": "Areas\\AdminHomeBook\\Views\\OrderDetails\\Index.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABoAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-18T04:09:34.615Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Views\\Dashboard\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\AdminHomeBook\\Views\\Dashboard\\Index.cshtml",
+              "ToolTip": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Views\\Dashboard\\Index.cshtml",
+              "RelativeToolTip": "Areas\\AdminHomeBook\\Views\\Dashboard\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-01T09:55:48.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Admin.cshtml",
+              "DocumentMoniker": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Views\\Shared\\Admin.cshtml",
+              "RelativeDocumentMoniker": "Areas\\AdminHomeBook\\Views\\Shared\\Admin.cshtml",
+              "ToolTip": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Views\\Shared\\Admin.cshtml",
+              "RelativeToolTip": "Areas\\AdminHomeBook\\Views\\Shared\\Admin.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAgAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-01T09:56:29.679Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Views\\Books\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\AdminHomeBook\\Views\\Books\\Index.cshtml",
+              "ToolTip": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Views\\Books\\Index.cshtml",
+              "RelativeToolTip": "Areas\\AdminHomeBook\\Views\\Books\\Index.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAFMAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-17T06:44:35.377Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\DATN\\HomeBook\\HomeBook\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "E:\\DATN\\HomeBook\\HomeBook\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T09:45:44.249Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "_SideBar.cshtml",
+              "DocumentMoniker": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Views\\Shared\\_SideBar.cshtml",
+              "RelativeDocumentMoniker": "Areas\\AdminHomeBook\\Views\\Shared\\_SideBar.cshtml",
+              "ToolTip": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Views\\Shared\\_SideBar.cshtml",
+              "RelativeToolTip": "Areas\\AdminHomeBook\\Views\\Shared\\_SideBar.cshtml",
+              "ViewState": "AgIAAIYBAAAAAAAAAAAAAJABAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-01T09:56:33.839Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Views\\Orders\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\AdminHomeBook\\Views\\Orders\\Index.cshtml",
+              "ToolTip": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Views\\Orders\\Index.cshtml",
+              "RelativeToolTip": "Areas\\AdminHomeBook\\Views\\Orders\\Index.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACQAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-18T04:09:00.466Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Views\\Books\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Areas\\AdminHomeBook\\Views\\Books\\Edit.cshtml",
+              "ToolTip": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Views\\Books\\Edit.cshtml",
+              "RelativeToolTip": "Areas\\AdminHomeBook\\Views\\Books\\Edit.cshtml",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAEoAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-18T03:56:08.518Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Views\\Categories\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\AdminHomeBook\\Views\\Categories\\Index.cshtml",
+              "ToolTip": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Views\\Categories\\Index.cshtml",
+              "RelativeToolTip": "Areas\\AdminHomeBook\\Views\\Categories\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-18T03:57:35.512Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Views\\Categories\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Areas\\AdminHomeBook\\Views\\Categories\\Edit.cshtml",
+              "ToolTip": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Views\\Categories\\Edit.cshtml",
+              "RelativeToolTip": "Areas\\AdminHomeBook\\Views\\Categories\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-18T03:58:03.555Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Views\\Customers\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\AdminHomeBook\\Views\\Customers\\Index.cshtml",
+              "ToolTip": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Views\\Customers\\Index.cshtml",
+              "RelativeToolTip": "Areas\\AdminHomeBook\\Views\\Customers\\Index.cshtml",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAEIAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-18T04:01:09.794Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Views\\Orders\\Details.cshtml",
+              "RelativeDocumentMoniker": "Areas\\AdminHomeBook\\Views\\Orders\\Details.cshtml",
+              "ToolTip": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Views\\Orders\\Details.cshtml",
+              "RelativeToolTip": "Areas\\AdminHomeBook\\Views\\Orders\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-18T07:33:00.587Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Views\\Publishers\\Details.cshtml",
+              "RelativeDocumentMoniker": "Areas\\AdminHomeBook\\Views\\Publishers\\Details.cshtml",
+              "ToolTip": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Views\\Publishers\\Details.cshtml",
+              "RelativeToolTip": "Areas\\AdminHomeBook\\Views\\Publishers\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-18T04:07:37.964Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Views\\Publishers\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Areas\\AdminHomeBook\\Views\\Publishers\\Edit.cshtml",
+              "ToolTip": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Views\\Publishers\\Edit.cshtml",
+              "RelativeToolTip": "Areas\\AdminHomeBook\\Views\\Publishers\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-18T04:07:11.43Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Views\\Reviews\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Areas\\AdminHomeBook\\Views\\Reviews\\Delete.cshtml",
+              "ToolTip": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Views\\Reviews\\Delete.cshtml",
+              "RelativeToolTip": "Areas\\AdminHomeBook\\Views\\Reviews\\Delete.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAcAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-18T04:05:45.793Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Views\\Reviews\\Details.cshtml",
+              "RelativeDocumentMoniker": "Areas\\AdminHomeBook\\Views\\Reviews\\Details.cshtml",
+              "ToolTip": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Views\\Reviews\\Details.cshtml",
+              "RelativeToolTip": "Areas\\AdminHomeBook\\Views\\Reviews\\Details.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-18T04:05:15.427Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Views\\Reviews\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Areas\\AdminHomeBook\\Views\\Reviews\\Edit.cshtml",
+              "ToolTip": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Views\\Reviews\\Edit.cshtml",
+              "RelativeToolTip": "Areas\\AdminHomeBook\\Views\\Reviews\\Edit.cshtml",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAAFMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-18T04:04:21.427Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Views\\Reviews\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\AdminHomeBook\\Views\\Reviews\\Index.cshtml",
+              "ToolTip": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Views\\Reviews\\Index.cshtml",
+              "RelativeToolTip": "Areas\\AdminHomeBook\\Views\\Reviews\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-18T04:04:22.819Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Views\\Publishers\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Areas\\AdminHomeBook\\Views\\Publishers\\Delete.cshtml",
+              "ToolTip": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Views\\Publishers\\Delete.cshtml",
+              "RelativeToolTip": "Areas\\AdminHomeBook\\Views\\Publishers\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-18T04:08:05.04Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Views\\Publishers\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\AdminHomeBook\\Views\\Publishers\\Index.cshtml",
+              "ToolTip": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Views\\Publishers\\Index.cshtml",
+              "RelativeToolTip": "Areas\\AdminHomeBook\\Views\\Publishers\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-18T04:06:37.641Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Views\\Contacts\\Details.cshtml",
+              "RelativeDocumentMoniker": "Areas\\AdminHomeBook\\Views\\Contacts\\Details.cshtml",
+              "ToolTip": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Views\\Contacts\\Details.cshtml",
+              "RelativeToolTip": "Areas\\AdminHomeBook\\Views\\Contacts\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-18T04:00:40.939Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Views\\Contacts\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\AdminHomeBook\\Views\\Contacts\\Index.cshtml",
+              "ToolTip": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Views\\Contacts\\Index.cshtml",
+              "RelativeToolTip": "Areas\\AdminHomeBook\\Views\\Contacts\\Index.cshtml",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAADgAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-18T03:59:46.075Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Views\\Books\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Areas\\AdminHomeBook\\Views\\Books\\Delete.cshtml",
+              "ToolTip": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Views\\Books\\Delete.cshtml",
+              "RelativeToolTip": "Areas\\AdminHomeBook\\Views\\Books\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-18T03:54:58.93Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Views\\Publishers\\Create.cshtml",
+              "RelativeDocumentMoniker": "Areas\\AdminHomeBook\\Views\\Publishers\\Create.cshtml",
+              "ToolTip": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Views\\Publishers\\Create.cshtml",
+              "RelativeToolTip": "Areas\\AdminHomeBook\\Views\\Publishers\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-18T04:08:30.746Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Views\\Books\\Details.cshtml",
+              "RelativeDocumentMoniker": "Areas\\AdminHomeBook\\Views\\Books\\Details.cshtml",
+              "ToolTip": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Views\\Books\\Details.cshtml",
+              "RelativeToolTip": "Areas\\AdminHomeBook\\Views\\Books\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-18T03:55:30.813Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Views\\Customers\\Create.cshtml",
+              "RelativeDocumentMoniker": "Areas\\AdminHomeBook\\Views\\Customers\\Create.cshtml",
+              "ToolTip": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Views\\Customers\\Create.cshtml",
+              "RelativeToolTip": "Areas\\AdminHomeBook\\Views\\Customers\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-18T04:03:06.735Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Views\\Customers\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Areas\\AdminHomeBook\\Views\\Customers\\Delete.cshtml",
+              "ToolTip": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Views\\Customers\\Delete.cshtml",
+              "RelativeToolTip": "Areas\\AdminHomeBook\\Views\\Customers\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-18T04:02:38.667Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Views\\Customers\\Details.cshtml",
+              "RelativeDocumentMoniker": "Areas\\AdminHomeBook\\Views\\Customers\\Details.cshtml",
+              "ToolTip": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Views\\Customers\\Details.cshtml",
+              "RelativeToolTip": "Areas\\AdminHomeBook\\Views\\Customers\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-18T04:01:57.788Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Views\\Customers\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Areas\\AdminHomeBook\\Views\\Customers\\Edit.cshtml",
+              "ToolTip": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Views\\Customers\\Edit.cshtml",
+              "RelativeToolTip": "Areas\\AdminHomeBook\\Views\\Customers\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-18T04:01:38.203Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Views\\Admins\\Create.cshtml",
+              "RelativeDocumentMoniker": "Areas\\AdminHomeBook\\Views\\Admins\\Create.cshtml",
+              "ToolTip": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Views\\Admins\\Create.cshtml",
+              "RelativeToolTip": "Areas\\AdminHomeBook\\Views\\Admins\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-18T03:49:44.506Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Views\\Reviews\\Create.cshtml",
+              "RelativeDocumentMoniker": "Areas\\AdminHomeBook\\Views\\Reviews\\Create.cshtml",
+              "ToolTip": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Views\\Reviews\\Create.cshtml",
+              "RelativeToolTip": "Areas\\AdminHomeBook\\Views\\Reviews\\Create.cshtml",
+              "ViewState": "AgIAACkAAAAAAAAAAAAAAEoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-18T04:05:45.08Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Views\\Contacts\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Areas\\AdminHomeBook\\Views\\Contacts\\Edit.cshtml",
+              "ToolTip": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Views\\Contacts\\Edit.cshtml",
+              "RelativeToolTip": "Areas\\AdminHomeBook\\Views\\Contacts\\Edit.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAADwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-18T04:00:24.432Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Views\\Contacts\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Areas\\AdminHomeBook\\Views\\Contacts\\Delete.cshtml",
+              "ToolTip": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Views\\Contacts\\Delete.cshtml",
+              "RelativeToolTip": "Areas\\AdminHomeBook\\Views\\Contacts\\Delete.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAADoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-18T04:00:10.596Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Views\\Login\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\AdminHomeBook\\Views\\Login\\Index.cshtml",
+              "ToolTip": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Views\\Login\\Index.cshtml",
+              "RelativeToolTip": "Areas\\AdminHomeBook\\Views\\Login\\Index.cshtml",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAAwHkAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-01T09:56:04.165Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Views\\Categories\\Create.cshtml",
+              "RelativeDocumentMoniker": "Areas\\AdminHomeBook\\Views\\Categories\\Create.cshtml",
+              "ToolTip": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Views\\Categories\\Create.cshtml",
+              "RelativeToolTip": "Areas\\AdminHomeBook\\Views\\Categories\\Create.cshtml",
+              "ViewState": "AgIAABwAAAAAAAAAAAAAADoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-18T03:59:19.334Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Views\\Categories\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Areas\\AdminHomeBook\\Views\\Categories\\Delete.cshtml",
+              "ToolTip": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Views\\Categories\\Delete.cshtml",
+              "RelativeToolTip": "Areas\\AdminHomeBook\\Views\\Categories\\Delete.cshtml",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAADAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-18T03:58:51.263Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Views\\Categories\\Details.cshtml",
+              "RelativeDocumentMoniker": "Areas\\AdminHomeBook\\Views\\Categories\\Details.cshtml",
+              "ToolTip": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Views\\Categories\\Details.cshtml",
+              "RelativeToolTip": "Areas\\AdminHomeBook\\Views\\Categories\\Details.cshtml",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAAC0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-18T03:58:27.619Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Views\\Admins\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Areas\\AdminHomeBook\\Views\\Admins\\Delete.cshtml",
+              "ToolTip": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Views\\Admins\\Delete.cshtml",
+              "RelativeToolTip": "Areas\\AdminHomeBook\\Views\\Admins\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-18T03:49:21.018Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Views\\Admins\\Details.cshtml",
+              "RelativeDocumentMoniker": "Areas\\AdminHomeBook\\Views\\Admins\\Details.cshtml",
+              "ToolTip": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Views\\Admins\\Details.cshtml",
+              "RelativeToolTip": "Areas\\AdminHomeBook\\Views\\Admins\\Details.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-18T03:48:53.141Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Views\\Admins\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Areas\\AdminHomeBook\\Views\\Admins\\Edit.cshtml",
+              "ToolTip": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Views\\Admins\\Edit.cshtml",
+              "RelativeToolTip": "Areas\\AdminHomeBook\\Views\\Admins\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-18T03:48:26.93Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "E:\\DATN\\HomeBook\\HomeBook\\Views\\Customers\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Customers\\Details.cshtml",
+              "ToolTip": "E:\\DATN\\HomeBook\\HomeBook\\Views\\Customers\\Details.cshtml",
+              "RelativeToolTip": "Views\\Customers\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-17T07:39:27.722Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\DATN\\HomeBook\\HomeBook\\Views\\Books\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Books\\Create.cshtml",
+              "ToolTip": "E:\\DATN\\HomeBook\\HomeBook\\Views\\Books\\Create.cshtml",
+              "RelativeToolTip": "Views\\Books\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-17T06:52:42.864Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\DATN\\HomeBook\\HomeBook\\Views\\Books\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Books\\Index.cshtml",
+              "ToolTip": "E:\\DATN\\HomeBook\\HomeBook\\Views\\Books\\Index.cshtml",
+              "RelativeToolTip": "Views\\Books\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-17T04:24:39.575Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\DATN\\HomeBook\\HomeBook\\Views\\LoginC\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\LoginC\\Index.cshtml",
+              "ToolTip": "E:\\DATN\\HomeBook\\HomeBook\\Views\\LoginC\\Index.cshtml",
+              "RelativeToolTip": "Views\\LoginC\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-17T03:28:11.016Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Views\\Admins\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\AdminHomeBook\\Views\\Admins\\Index.cshtml",
+              "ToolTip": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Views\\Admins\\Index.cshtml",
+              "RelativeToolTip": "Areas\\AdminHomeBook\\Views\\Admins\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-17T02:20:10.885Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\DATN\\HomeBook\\HomeBook\\Views\\Books\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Books\\Edit.cshtml",
+              "ToolTip": "E:\\DATN\\HomeBook\\HomeBook\\Views\\Books\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Books\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-17T06:55:05.682Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\DATN\\HomeBook\\HomeBook\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\DATN\\HomeBook\\HomeBook\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAAAGwAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-17T02:28:28.483Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "style.css",
+              "DocumentMoniker": "E:\\DATN\\HomeBook\\HomeBook\\wwwroot\\css\\style.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\style.css",
+              "ToolTip": "E:\\DATN\\HomeBook\\HomeBook\\wwwroot\\css\\style.css",
+              "RelativeToolTip": "wwwroot\\css\\style.css",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-17T02:35:48.212Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "E:\\DATN\\HomeBook\\HomeBook\\Views\\Books\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Books\\Details.cshtml",
+              "ToolTip": "E:\\DATN\\HomeBook\\HomeBook\\Views\\Books\\Details.cshtml",
+              "RelativeToolTip": "Views\\Books\\Details.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-17T07:25:14.673Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "CartsController.cs",
+              "DocumentMoniker": "E:\\DATN\\HomeBook\\HomeBook\\Controllers\\CartsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CartsController.cs",
+              "ToolTip": "E:\\DATN\\HomeBook\\HomeBook\\Controllers\\CartsController.cs",
+              "RelativeToolTip": "Controllers\\CartsController.cs",
+              "ViewState": "AgIAAJ0AAAAAAAAAAAAYwNYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T03:45:45.066Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "E:\\DATN\\HomeBook\\HomeBook\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
+              "ToolTip": "E:\\DATN\\HomeBook\\HomeBook\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAADoAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-17T04:05:52.982Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\DATN\\HomeBook\\HomeBook\\Views\\Contacts\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Contacts\\Index.cshtml",
+              "ToolTip": "E:\\DATN\\HomeBook\\HomeBook\\Views\\Contacts\\Index.cshtml",
+              "RelativeToolTip": "Views\\Contacts\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-17T04:27:55.546Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\DATN\\HomeBook\\HomeBook\\Views\\Contacts\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Contacts\\Create.cshtml",
+              "ToolTip": "E:\\DATN\\HomeBook\\HomeBook\\Views\\Contacts\\Create.cshtml",
+              "RelativeToolTip": "Views\\Contacts\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-17T04:28:06.015Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "BooksController.cs",
+              "DocumentMoniker": "E:\\DATN\\HomeBook\\HomeBook\\Controllers\\BooksController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BooksController.cs",
+              "ToolTip": "E:\\DATN\\HomeBook\\HomeBook\\Controllers\\BooksController.cs",
+              "RelativeToolTip": "Controllers\\BooksController.cs",
+              "ViewState": "AgIAAJMAAAAAAAAAAAAQwKkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T03:44:32.193Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\DATN\\HomeBook\\HomeBook\\Views\\Customers\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Customers\\Create.cshtml",
+              "ToolTip": "E:\\DATN\\HomeBook\\HomeBook\\Views\\Customers\\Create.cshtml",
+              "RelativeToolTip": "Views\\Customers\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-17T04:49:54.333Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "ReviewsController.cs",
+              "DocumentMoniker": "E:\\DATN\\HomeBook\\HomeBook\\Controllers\\ReviewsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ReviewsController.cs",
+              "ToolTip": "E:\\DATN\\HomeBook\\HomeBook\\Controllers\\ReviewsController.cs",
+              "RelativeToolTip": "Controllers\\ReviewsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T03:52:06.125Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "OrderDetailsController.cs",
+              "DocumentMoniker": "E:\\DATN\\HomeBook\\HomeBook\\Controllers\\OrderDetailsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OrderDetailsController.cs",
+              "ToolTip": "E:\\DATN\\HomeBook\\HomeBook\\Controllers\\OrderDetailsController.cs",
+              "RelativeToolTip": "Controllers\\OrderDetailsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T03:50:32.14Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "E:\\DATN\\HomeBook\\HomeBook\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OrdersController.cs",
+              "ToolTip": "E:\\DATN\\HomeBook\\HomeBook\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "Controllers\\OrdersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T03:49:26.374Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\DATN\\HomeBook\\HomeBook\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "E:\\DATN\\HomeBook\\HomeBook\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAKoAAAAAAAAAAAAqwMIAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-17T02:29:51.366Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "CustomersController.cs",
+              "DocumentMoniker": "E:\\DATN\\HomeBook\\HomeBook\\Controllers\\CustomersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CustomersController.cs",
+              "ToolTip": "E:\\DATN\\HomeBook\\HomeBook\\Controllers\\CustomersController.cs",
+              "RelativeToolTip": "Controllers\\CustomersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T03:47:28.254Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "ContactsController.cs",
+              "DocumentMoniker": "E:\\DATN\\HomeBook\\HomeBook\\Controllers\\ContactsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ContactsController.cs",
+              "ToolTip": "E:\\DATN\\HomeBook\\HomeBook\\Controllers\\ContactsController.cs",
+              "RelativeToolTip": "Controllers\\ContactsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T03:46:38.401Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "custom.js",
+              "DocumentMoniker": "E:\\DATN\\HomeBook\\HomeBook\\wwwroot\\js\\custom.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\custom.js",
+              "ToolTip": "E:\\DATN\\HomeBook\\HomeBook\\wwwroot\\js\\custom.js",
+              "RelativeToolTip": "wwwroot\\js\\custom.js",
+              "ViewState": "AgIAAHAAAAAAAAAAAAAqwJAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-04-17T02:42:52.45Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "maps.js",
+              "DocumentMoniker": "E:\\DATN\\HomeBook\\HomeBook\\wwwroot\\js\\maps.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\maps.js",
+              "ToolTip": "E:\\DATN\\HomeBook\\HomeBook\\wwwroot\\js\\maps.js",
+              "RelativeToolTip": "wwwroot\\js\\maps.js",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-04-17T02:42:47.64Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "nav.js",
+              "DocumentMoniker": "E:\\DATN\\HomeBook\\HomeBook\\wwwroot\\js\\nav.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\nav.js",
+              "ToolTip": "E:\\DATN\\HomeBook\\HomeBook\\wwwroot\\js\\nav.js",
+              "RelativeToolTip": "wwwroot\\js\\nav.js",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAqwIoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-04-17T02:42:35.204Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "site.js",
+              "DocumentMoniker": "E:\\DATN\\HomeBook\\HomeBook\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\site.js",
+              "ToolTip": "E:\\DATN\\HomeBook\\HomeBook\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "wwwroot\\js\\site.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-04-17T02:36:36.881Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "component.css",
+              "DocumentMoniker": "E:\\DATN\\HomeBook\\HomeBook\\wwwroot\\css\\effects\\component.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\effects\\component.css",
+              "ToolTip": "E:\\DATN\\HomeBook\\HomeBook\\wwwroot\\css\\effects\\component.css",
+              "RelativeToolTip": "wwwroot\\css\\effects\\component.css",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-17T02:36:13.888Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "normalize.css",
+              "DocumentMoniker": "E:\\DATN\\HomeBook\\HomeBook\\wwwroot\\css\\effects\\normalize.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\effects\\normalize.css",
+              "ToolTip": "E:\\DATN\\HomeBook\\HomeBook\\wwwroot\\css\\effects\\normalize.css",
+              "RelativeToolTip": "wwwroot\\css\\effects\\normalize.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-17T02:36:13.007Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "set2.css",
+              "DocumentMoniker": "E:\\DATN\\HomeBook\\HomeBook\\wwwroot\\css\\effects\\set2.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\effects\\set2.css",
+              "ToolTip": "E:\\DATN\\HomeBook\\HomeBook\\wwwroot\\css\\effects\\set2.css",
+              "RelativeToolTip": "wwwroot\\css\\effects\\set2.css",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-17T02:36:10.03Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "font-awesome.min.css",
+              "DocumentMoniker": "E:\\DATN\\HomeBook\\HomeBook\\wwwroot\\css\\font-awesome.min.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\font-awesome.min.css",
+              "ToolTip": "E:\\DATN\\HomeBook\\HomeBook\\wwwroot\\css\\font-awesome.min.css",
+              "RelativeToolTip": "wwwroot\\css\\font-awesome.min.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-17T02:36:07.208Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "responsive.css",
+              "DocumentMoniker": "E:\\DATN\\HomeBook\\HomeBook\\wwwroot\\css\\responsive.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\responsive.css",
+              "ToolTip": "E:\\DATN\\HomeBook\\HomeBook\\wwwroot\\css\\responsive.css",
+              "RelativeToolTip": "wwwroot\\css\\responsive.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-17T02:36:04.567Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
               "Title": "CustomersController.cs",
               "DocumentMoniker": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Controllers\\CustomersController.cs",
               "RelativeDocumentMoniker": "Areas\\AdminHomeBook\\Controllers\\CustomersController.cs",
@@ -215,12 +1398,11 @@
               "RelativeToolTip": "Areas\\AdminHomeBook\\Controllers\\CustomersController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-01T10:02:55.804Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-01T10:02:55.804Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 81,
               "Title": "ContactsController.cs",
               "DocumentMoniker": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Controllers\\ContactsController.cs",
               "RelativeDocumentMoniker": "Areas\\AdminHomeBook\\Controllers\\ContactsController.cs",
@@ -228,12 +1410,11 @@
               "RelativeToolTip": "Areas\\AdminHomeBook\\Controllers\\ContactsController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-01T10:01:59.622Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-01T10:01:59.622Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 80,
               "Title": "CategoriesController.cs",
               "DocumentMoniker": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Controllers\\CategoriesController.cs",
               "RelativeDocumentMoniker": "Areas\\AdminHomeBook\\Controllers\\CategoriesController.cs",
@@ -241,142 +1422,23 @@
               "RelativeToolTip": "Areas\\AdminHomeBook\\Controllers\\CategoriesController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-01T10:01:17.582Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-01T10:01:17.582Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "BooksController.cs",
-              "DocumentMoniker": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Controllers\\BooksController.cs",
-              "RelativeDocumentMoniker": "Areas\\AdminHomeBook\\Controllers\\BooksController.cs",
-              "ToolTip": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Controllers\\BooksController.cs",
-              "RelativeToolTip": "Areas\\AdminHomeBook\\Controllers\\BooksController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 83,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "Areas\\AdminHomeBook\\Controllers\\LoginController.cs",
+              "ToolTip": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "Areas\\AdminHomeBook\\Controllers\\LoginController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-01T10:00:01.822Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-01T09:54:44.63Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "AdminsController.cs",
-              "DocumentMoniker": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Controllers\\AdminsController.cs",
-              "RelativeDocumentMoniker": "Areas\\AdminHomeBook\\Controllers\\AdminsController.cs",
-              "ToolTip": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Controllers\\AdminsController.cs",
-              "RelativeToolTip": "Areas\\AdminHomeBook\\Controllers\\AdminsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-01T09:58:05.357Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "_NavBar.cshtml",
-              "DocumentMoniker": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Views\\Shared\\_NavBar.cshtml",
-              "RelativeDocumentMoniker": "Areas\\AdminHomeBook\\Views\\Shared\\_NavBar.cshtml",
-              "ToolTip": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Views\\Shared\\_NavBar.cshtml",
-              "RelativeToolTip": "Areas\\AdminHomeBook\\Views\\Shared\\_NavBar.cshtml",
-              "ViewState": "AgIAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-01T09:56:36.558Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "_Preloader.cshtml",
-              "DocumentMoniker": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Views\\Shared\\_Preloader.cshtml",
-              "RelativeDocumentMoniker": "Areas\\AdminHomeBook\\Views\\Shared\\_Preloader.cshtml",
-              "ToolTip": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Views\\Shared\\_Preloader.cshtml",
-              "RelativeToolTip": "Areas\\AdminHomeBook\\Views\\Shared\\_Preloader.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-01T09:56:34.98Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "_SideBar.cshtml",
-              "DocumentMoniker": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Views\\Shared\\_SideBar.cshtml",
-              "RelativeDocumentMoniker": "Areas\\AdminHomeBook\\Views\\Shared\\_SideBar.cshtml",
-              "ToolTip": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Views\\Shared\\_SideBar.cshtml",
-              "RelativeToolTip": "Areas\\AdminHomeBook\\Views\\Shared\\_SideBar.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-01T09:56:33.839Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "_ValidationScriptsPartial.cshtml",
-              "DocumentMoniker": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeDocumentMoniker": "Areas\\AdminHomeBook\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ToolTip": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeToolTip": "Areas\\AdminHomeBook\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-01T09:56:32.823Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Admin.cshtml",
-              "DocumentMoniker": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Views\\Shared\\Admin.cshtml",
-              "RelativeDocumentMoniker": "Areas\\AdminHomeBook\\Views\\Shared\\Admin.cshtml",
-              "ToolTip": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Views\\Shared\\Admin.cshtml",
-              "RelativeToolTip": "Areas\\AdminHomeBook\\Views\\Shared\\Admin.cshtml",
-              "ViewState": "AgIAADkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-01T09:56:29.679Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "Areas\\AdminHomeBook\\Views\\_ViewImports.cshtml",
-              "ToolTip": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "Areas\\AdminHomeBook\\Views\\_ViewImports.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-01T09:56:19.492Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Views\\Login\\Index.cshtml",
-              "RelativeDocumentMoniker": "Areas\\AdminHomeBook\\Views\\Login\\Index.cshtml",
-              "ToolTip": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Views\\Login\\Index.cshtml",
-              "RelativeToolTip": "Areas\\AdminHomeBook\\Views\\Login\\Index.cshtml",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAAAAAAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-01T09:56:04.165Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Views\\Dashboard\\Index.cshtml",
-              "RelativeDocumentMoniker": "Areas\\AdminHomeBook\\Views\\Dashboard\\Index.cshtml",
-              "ToolTip": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Views\\Dashboard\\Index.cshtml",
-              "RelativeToolTip": "Areas\\AdminHomeBook\\Views\\Dashboard\\Index.cshtml",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-01T09:55:48.756Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 84,
               "Title": "Login.cs",
               "DocumentMoniker": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Models\\Login.cs",
               "RelativeDocumentMoniker": "Areas\\AdminHomeBook\\Models\\Login.cs",
@@ -384,38 +1446,11 @@
               "RelativeToolTip": "Areas\\AdminHomeBook\\Models\\Login.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-01T09:55:11.118Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-01T09:55:11.118Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "LoginController.cs",
-              "DocumentMoniker": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Controllers\\LoginController.cs",
-              "RelativeDocumentMoniker": "Areas\\AdminHomeBook\\Controllers\\LoginController.cs",
-              "ToolTip": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Controllers\\LoginController.cs",
-              "RelativeToolTip": "Areas\\AdminHomeBook\\Controllers\\LoginController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-01T09:54:44.63Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "DashboardController.cs",
-              "DocumentMoniker": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Controllers\\DashboardController.cs",
-              "RelativeDocumentMoniker": "Areas\\AdminHomeBook\\Controllers\\DashboardController.cs",
-              "ToolTip": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Controllers\\DashboardController.cs",
-              "RelativeToolTip": "Areas\\AdminHomeBook\\Controllers\\DashboardController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-01T09:54:24.435Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 85,
               "Title": "BaseController.cs",
               "DocumentMoniker": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Controllers\\BaseController.cs",
               "RelativeDocumentMoniker": "Areas\\AdminHomeBook\\Controllers\\BaseController.cs",
@@ -423,12 +1458,119 @@
               "RelativeToolTip": "Areas\\AdminHomeBook\\Controllers\\BaseController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAB1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-01T09:53:37.003Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-01T09:53:37.003Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 86,
+              "Title": "AdminsController.cs",
+              "DocumentMoniker": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Controllers\\AdminsController.cs",
+              "RelativeDocumentMoniker": "Areas\\AdminHomeBook\\Controllers\\AdminsController.cs",
+              "ToolTip": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Controllers\\AdminsController.cs",
+              "RelativeToolTip": "Areas\\AdminHomeBook\\Controllers\\AdminsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T09:58:05.357Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "StatisticsController.cs",
+              "DocumentMoniker": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Controllers\\StatisticsController.cs",
+              "RelativeDocumentMoniker": "Areas\\AdminHomeBook\\Controllers\\StatisticsController.cs",
+              "ToolTip": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Controllers\\StatisticsController.cs",
+              "RelativeToolTip": "Areas\\AdminHomeBook\\Controllers\\StatisticsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T10:09:21.017Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 90,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "Areas\\AdminHomeBook\\Controllers\\OrdersController.cs",
+              "ToolTip": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "Areas\\AdminHomeBook\\Controllers\\OrdersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T10:05:28.315Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 89,
+              "Title": "PublishersController.cs",
+              "DocumentMoniker": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Controllers\\PublishersController.cs",
+              "RelativeDocumentMoniker": "Areas\\AdminHomeBook\\Controllers\\PublishersController.cs",
+              "ToolTip": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Controllers\\PublishersController.cs",
+              "RelativeToolTip": "Areas\\AdminHomeBook\\Controllers\\PublishersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T10:07:22.326Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "ReviewsController.cs",
+              "DocumentMoniker": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Controllers\\ReviewsController.cs",
+              "RelativeDocumentMoniker": "Areas\\AdminHomeBook\\Controllers\\ReviewsController.cs",
+              "ToolTip": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Controllers\\ReviewsController.cs",
+              "RelativeToolTip": "Areas\\AdminHomeBook\\Controllers\\ReviewsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T10:08:19.78Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 92,
+              "Title": "_NavBar.cshtml",
+              "DocumentMoniker": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Views\\Shared\\_NavBar.cshtml",
+              "RelativeDocumentMoniker": "Areas\\AdminHomeBook\\Views\\Shared\\_NavBar.cshtml",
+              "ToolTip": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Views\\Shared\\_NavBar.cshtml",
+              "RelativeToolTip": "Areas\\AdminHomeBook\\Views\\Shared\\_NavBar.cshtml",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-01T09:56:36.558Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 93,
+              "Title": "_Preloader.cshtml",
+              "DocumentMoniker": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Views\\Shared\\_Preloader.cshtml",
+              "RelativeDocumentMoniker": "Areas\\AdminHomeBook\\Views\\Shared\\_Preloader.cshtml",
+              "ToolTip": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Views\\Shared\\_Preloader.cshtml",
+              "RelativeToolTip": "Areas\\AdminHomeBook\\Views\\Shared\\_Preloader.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-01T09:56:34.98Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 94,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Areas\\AdminHomeBook\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Areas\\AdminHomeBook\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-01T09:56:32.823Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 95,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Areas\\AdminHomeBook\\Views\\_ViewImports.cshtml",
+              "ToolTip": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Areas\\AdminHomeBook\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-01T09:56:19.492Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 96,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "E:\\DATN\\HomeBook\\HomeBook\\Areas\\AdminHomeBook\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "Areas\\AdminHomeBook\\Views\\_ViewStart.cshtml",
@@ -436,12 +1578,11 @@
               "RelativeToolTip": "Areas\\AdminHomeBook\\Views\\_ViewStart.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-01T09:53:33.13Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-01T09:53:33.13Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 97,
               "Title": "ScaffoldingReadMe.txt",
               "DocumentMoniker": "E:\\DATN\\HomeBook\\HomeBook\\ScaffoldingReadMe.txt",
               "RelativeDocumentMoniker": "ScaffoldingReadMe.txt",
@@ -449,38 +1590,11 @@
               "RelativeToolTip": "ScaffoldingReadMe.txt",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-04-01T09:50:27.878Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-01T09:50:27.878Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "E:\\DATN\\HomeBook\\HomeBook\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "E:\\DATN\\HomeBook\\HomeBook\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-01T09:48:47.133Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "HomeBookContext.cs",
-              "DocumentMoniker": "E:\\DATN\\HomeBook\\HomeBook\\Models\u200B\\HomeBookContext.cs",
-              "RelativeDocumentMoniker": "Models\u200B\\HomeBookContext.cs",
-              "ToolTip": "E:\\DATN\\HomeBook\\HomeBook\\Models\u200B\\HomeBookContext.cs",
-              "RelativeToolTip": "Models\u200B\\HomeBookContext.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAmwCEAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-01T09:46:34.906Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 91,
               "Title": "HomeController.cs",
               "DocumentMoniker": "E:\\DATN\\HomeBook\\HomeBook\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
@@ -488,21 +1602,7 @@
               "RelativeToolTip": "Controllers\\HomeController.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAA5wAEAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-01T09:45:48.753Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\DATN\\HomeBook\\HomeBook\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "E:\\DATN\\HomeBook\\HomeBook\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-01T09:45:44.249Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-01T09:45:48.753Z"
             }
           ]
         }

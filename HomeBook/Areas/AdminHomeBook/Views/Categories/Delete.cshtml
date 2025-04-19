@@ -1,28 +1,49 @@
 ﻿@model HomeBook.Models.Category
 
 @{
-    ViewData["Title"] = "Delete";
+    ViewData["Title"] = "Xóa danh mục";
     Layout = "~/Areas/AdminHomeBook/Views/Shared/Admin.cshtml";
 }
 
-<h1>Delete</h1>
+<div class="container mt-4">
+    <h1 class="mb-4 text-danger"><i class="bi bi-trash-fill me-2"></i> Xóa danh mục</h1>
 
-<h3>Are you sure you want to delete this?</h3>
-<div>
-    <h4>Category</h4>
-    <hr />
-    <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.CategoryName)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.CategoryName)
-        </dd>
-    </dl>
-    
-    <form asp-action="Delete">
-        <input type="hidden" asp-for="CategoryId" />
-        <input type="submit" value="Delete" class="btn btn-danger" /> |
-        <a asp-action="Index">Back to List</a>
-    </form>
+    <h3 class="alert alert-danger"><i class="bi bi-exclamation-triangle-fill me-2"></i> Bạn có chắc chắn muốn xóa danh mục này?</h3>
+
+    <hr class="border-danger mb-4" />
+
+    <div>
+        <dl class="row">
+            <dt class="col-sm-3 fw-bold"><i class="bi bi-tag-fill me-2"></i> Tên danh mục</dt>
+            <dd class="col-sm-9">@Html.DisplayFor(model => model.CategoryName)</dd>
+        </dl>
+
+        <form asp-action="Delete">
+            <input type="hidden" asp-for="CategoryId" />
+            <button type="submit" class="btn btn-danger"><i class="bi bi-trash-fill me-2"></i> Xóa</button>
+            <a asp-action="Index" class="btn btn-secondary ms-2"><i class="bi bi-arrow-left-circle-fill me-2"></i> Quay lại danh sách</a>
+        </form>
+    </div>
 </div>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+<style>
+    .text-danger {
+        color: #fb5353 !important;
+    }
+
+    .border-danger {
+        border-color: #fb5353 !important;
+        border-width: 2px;
+    }
+
+    .btn-danger {
+        background-color: #fb5353;
+        border-color: #fb5353;
+    }
+
+        .btn-danger:hover {
+            background-color: #d94242;
+            border-color: #d94242;
+        }
+</style>
