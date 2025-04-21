@@ -21,13 +21,33 @@ namespace HomeBook.Controllers
         // GET: Orders
         public async Task<IActionResult> Index()
         {
-            var homeBookContext = _context.Orders.Include(o => o.Customer);
-            return View(await homeBookContext.ToListAsync());
+            var customerId = HttpContext.Session.GetInt32("CustomerId");
+            if (customerId == null)
+            {
+                TempData["Error"] = "Vui lòng đăng nhập để xem lịch sử đơn hàng.";
+                return RedirectToAction("Index", "LoginC");
+            }
+
+            var orders = await _context.Orders
+                .Include(o => o.Customer)
+                .Include(o => o.OrderDetails)
+                    .ThenInclude(od => od.Book)
+                .Where(o => o.CustomerId == customerId)
+                .ToListAsync();
+
+            return View(orders);
         }
 
         // GET: Orders/Details/5
         public async Task<IActionResult> Details(int? id)
         {
+            var customerId = HttpContext.Session.GetInt32("CustomerId");
+            if (customerId == null)
+            {
+                TempData["Error"] = "Vui lòng đăng nhập để xem chi tiết đơn hàng.";
+                return RedirectToAction("Index", "LoginC");
+            }
+
             if (id == null)
             {
                 return NotFound();
@@ -35,7 +55,10 @@ namespace HomeBook.Controllers
 
             var order = await _context.Orders
                 .Include(o => o.Customer)
-                .FirstOrDefaultAsync(m => m.OrderId == id);
+                .Include(o => o.OrderDetails)
+                    .ThenInclude(od => od.Book)
+                .FirstOrDefaultAsync(o => o.OrderId == id && o.CustomerId == customerId);
+
             if (order == null)
             {
                 return NotFound();

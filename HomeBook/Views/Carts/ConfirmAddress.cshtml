@@ -1,0 +1,41 @@
+﻿@model HomeBook.Models.Customer
+
+@{
+    ViewData["Title"] = "Xác nhận địa chỉ";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-4">
+    <h1 class="my-4 text-danger">Xác Nhận Địa Chỉ Giao Hàng</h1>
+
+    <div class="card border-danger">
+        <div class="card-body">
+            <form asp-action="PlaceOrderWithAddress" method="post">
+                <div class="form-group mb-3">
+                    <label class="form-label">Địa chỉ giao hàng</label>
+                    <input type="text" name="newAddress" class="form-control" value="@Model.Address" required />
+                </div>
+                <div class="form-group mb-3">
+                    <label class="form-label">Phương thức thanh toán</label>
+                    <select name="paymentMethod" class="form-control">
+                        <option value="Tiền mặt">Tiền mặt khi nhận hàng</option>
+                        <option value="MoMo">Thanh toán qua MoMo</option>
+                    </select>
+                </div>
+                <div class="d-flex justify-content-between">
+                    <a asp-action="Index" class="btn btn-outline-secondary">Quay lại giỏ hàng</a>
+                    <button type="submit" class="btn btn-success">Xác nhận và đặt hàng</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<style>
+    .text-danger {
+        color: #fb5353 !important;
+    }
+
+    .border-danger {
+        border-color: #fb5353 !important;
+    }
+</style>

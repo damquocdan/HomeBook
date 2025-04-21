@@ -85,6 +85,88 @@
       ]
     },
     {
+      "Route": "Uploads/Avatars/df3e0d50-dedd-46f3-825e-7e05b74e27e7_rosé.jpg",
+      "AssetFile": "Uploads/Avatars/df3e0d50-dedd-46f3-825e-7e05b74e27e7_rosé.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "67198"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IV78uTfFJ4PUXigUwHCmuckl2LsdFGf9yyZ4PCFBRCc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 02:20:11 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-IV78uTfFJ4PUXigUwHCmuckl2LsdFGf9yyZ4PCFBRCc="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/Avatars/df3e0d50-dedd-46f3-825e-7e05b74e27e7_rosé.rxedtypuh9.jpg",
+      "AssetFile": "Uploads/Avatars/df3e0d50-dedd-46f3-825e-7e05b74e27e7_rosé.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "67198"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IV78uTfFJ4PUXigUwHCmuckl2LsdFGf9yyZ4PCFBRCc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 02:20:11 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rxedtypuh9"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-IV78uTfFJ4PUXigUwHCmuckl2LsdFGf9yyZ4PCFBRCc="
+        },
+        {
+          "Name": "label",
+          "Value": "Uploads/Avatars/df3e0d50-dedd-46f3-825e-7e05b74e27e7_rosé.jpg"
+        }
+      ]
+    },
+    {
       "Route": "css/bootstrap.min.8r8st32b7a.css",
       "AssetFile": "css/bootstrap.min.css",
       "Selectors": [],

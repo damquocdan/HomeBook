@@ -1,139 +1,331 @@
 ﻿@model HomeBook.Models.Book
+@using Microsoft.AspNetCore.Http
+@inject IHttpContextAccessor HttpContextAccessor
 
 @{
-    ViewData["Title"] = "Details";
+    ViewData["Title"] = "Chi tiết sách";
     Layout = "~/Views/Shared/_Layout.cshtml";
+    var customerId = HttpContextAccessor.HttpContext.Session.GetInt32("CustomerId");
+    var canReview = ViewBag.CanReview as bool? ?? false;
 }
+@if (TempData["Success"] != null)
+{
+    <div class="alert alert-success">@TempData["Success"]</div>
+}
+@if (TempData["Error"] != null)
+{
+    <div class="alert alert-danger">@TempData["Error"]</div>
+}
+<div class="blog-details">
+    <article class="post-details" id="post-details">
+        <header role="bog-header" class="bog-header text-center">
+            <h3><span>@Model.Price.ToString("N0")</span> VNĐ</h3>
+            <h2>@Model.BookTitle</h2>
+        </header>
 
-<div class="container">
-    <div class="blog-details">
-        <article class="post-details" id="post-details">
-            <header role="bog-header" class="bog-header text-center">
-                <h3><span>@Model.Price</span> VND</h3>
-                <h2>@Model.BookTitle</h2>
-            </header>
+        <figure>
+            <img src="@(Model.CoverImageUrl ?? "https://via.placeholder.com/600x400")" alt="@Model.BookTitle" class="img-responsive" />
+        </figure>
 
-            <figure>
-                <img src="@Model.CoverImageUrl" alt="@Model.BookTitle" class="img-responsive" />
-            </figure>
-
-            <div class="enter-content">
-                <h4>Thông tin sách</h4>
-                <p><strong>Tác giả:</strong> @Model.Author</p>
-                <p><strong>Mô tả:</strong> @(Model.Description ?? "Không có mô tả")</p>
-                <p><strong>Danh mục:</strong> @(Model.Category?.CategoryName ?? "Không xác định")</p>
-                <p><strong>Nhà xuất bản:</strong> @(Model.Publisher?.PublisherName ?? "Không xác định")</p>
+        <div class="enter-content">
+            <h4>Thông tin sách</h4>
+            <p><strong>Tác giả:</strong> @(Model.Author ?? "Không xác định")</p>
+            <p><strong>Mô tả:</strong> @(Model.Description ?? "Không có mô tả")</p>
+            <p><strong>Danh mục:</strong> @(Model.Category?.CategoryName ?? "Không xác định")</p>
+            <p><strong>Nhà xuất bản:</strong> @(Model.Publisher?.PublisherName ?? "Không xác định")</p>
+            <div class="action-links mt-4">
+                <a asp-controller="Carts" asp-action="Add" asp-route-id="@Model.BookId" class="btn btn-primary">
+                    <i class="bi bi-cart-plus"></i> Thêm vào giỏ hàng
+                </a>
+                <a asp-controller="Books" asp-action="Index" class="btn btn-secondary">
+                    <i class="bi bi-arrow-left"></i> Quay lại
+                </a>
             </div>
+        </div>
+    </article>
 
-        </article>
+    <!-- Comments -->
+    <div class="comments-pan">
+        <h3>@(ViewBag.Reviews?.Count ?? 0) Bình luận</h3>
+        <ul class="comments-reply">
+            @if (ViewBag.Reviews != null)
+            {
+                foreach (var review in ViewBag.Reviews as List<HomeBook.Models.Review>)
+                {
+                    <li>
+                        <figure>
+                            <img src="@(review.Customer?.Avatar ?? "https://via.placeholder.com/50")" alt="@review.Customer?.FullName" class="img-responsive" />
+                        </figure>
+                        <section>
+                            <h4>@(review.Customer?.FullName ?? "Khách hàng ẩn danh") <a href="#">Trả lời</a></h4>
+                            <div class="date-pan">@review.CreatedAt?.ToString("dd/MM/yyyy HH:mm")</div>
+                            <div class="rating">
+                                @for (int i = 1; i <= 5; i++)
+                                {
+                                    <i class="bi @(i <= review.Rating ? "bi-star-fill" : "bi-star") text-warning"></i>
+                                }
+                            </div>
+                            <p>@(review.Comment ?? "Không có bình luận")</p>
+                        </section>
+                    </li>
+                }
+            }
+            else
+            {
+                <li><p>Chưa có bình luận nào.</p></li>
+            }
+        </ul>
+
+        <!-- Comment Form -->
+        <div class="commentys-form">
+            <h4>Để lại bình luận</h4>
+            @if (customerId == null)
+            {
+                <p class="text-muted">Vui lòng <a asp-controller="LoginC" asp-action="Index">đăng nhập</a> để bình luận.</p>
+            }
+            else if (!canReview)
+            {
+                <p class="text-muted">Bạn cần mua sách này để có thể gửi bình luận.</p>
+            }
+            else
+            {
+                <div class="row">
+                    <form asp-action="AddReview" asp-controller="Books" method="post">
+                        <input type="hidden" name="BookId" value="@Model.BookId" />
+                        <input type="hidden" name="CustomerId" value="@customerId" />
+                        <div class="col-xs-12 col-sm-12 col-md-12">
+                            <label for="rating">Đánh giá:</label>
+                            <select name="Rating" id="rating" class="form-control mb-3" required>
+                                <option value="">Chọn số sao</option>
+                                <option value="1">1 Sao</option>
+                                <option value="2">2 Sao</option>
+                                <option value="3">3 Sao</option>
+                                <option value="4">4 Sao</option>
+                                <option value="5">5 Sao</option>
+                            </select>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-12">
+                            <textarea name="Comment" cols="" rows="4" placeholder="Bình luận của bạn..." class="form-control" required></textarea>
+                        </div>
+                        <div class="text-center mt-3">
+                            <input type="submit" value="Gửi bình luận" class="btn btn-primary" />
+                        </div>
+                    </form>
+                </div>
+            }
+        </div>
     </div>
 </div>
 
-<style>
-    .blog-details {
-        padding: 40px 0;
-    }
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
-    .post-details {
-        background: #fff;
-        border-radius: 8px;
-        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-        padding: 20px;
-    }
 
-    .bog-header {
-        margin-bottom: 30px;
-    }
+    <style>
+        .blog-details {
+            padding: 40px 0;
+            background: #f8f9fa;
+        }
 
-        .bog-header h3 {
-            font-size: 1.5em;
-            color: #007bff;
+        .post-details {
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin-bottom: 30px;
+        }
+
+        .bog-header {
+            margin-bottom: 30px;
+        }
+
+            .bog-header h3 {
+                font-size: 1.8em;
+                color: #fb5353;
+                margin-bottom: 10px;
+            }
+
+                .bog-header h3 span {
+                    font-size: 1.4em;
+                    font-weight: bold;
+                }
+
+            .bog-header h2 {
+                font-size: 2.2em;
+                color: #333;
+                margin: 0;
+            }
+
+        .post-details figure {
+            margin: 0 0 20px;
+            text-align: center;
+        }
+
+        .post-details img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            max-height: 400px;
+            object-fit: cover;
+            margin:auto;
+        }
+
+        .enter-content {
+            font-size: 1em;
+            color: #555;
+            line-height: 1.6;
+        }
+
+            .enter-content h4 {
+                font-size: 1.4em;
+                color: #333;
+                margin-bottom: 15px;
+            }
+
+            .enter-content p {
+                margin: 10px 0;
+            }
+
+        .action-links .btn {
+            padding: 10px 20px;
+            border-radius: 4px;
+            font-size: 1em;
+            text-decoration: none;
+        }
+
+        .btn-primary {
+            background: #fb5353;
+            border: none;
+            color: #fff;
+        }
+
+            .btn-primary:hover {
+                background: #d94242;
+            }
+
+        .btn-secondary {
+            background: #6c757d;
+            border: none;
+            color: #fff;
+        }
+
+            .btn-secondary:hover {
+                background: #5a6268;
+            }
+
+        .comments-pan {
+            background: #fff;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+            .comments-pan h3 {
+                font-size: 1.6em;
+                color: #fb5353;
+                margin-bottom: 20px;
+            }
+
+        .comments-reply {
+            list-style: none;
+            padding: 0;
+        }
+
+            .comments-reply li {
+                margin-bottom: 20px;
+                display: flex;
+                align-items: flex-start;
+            }
+
+        .comments-reply figure {
+            margin-right: 15px;
+        }
+
+            .comments-reply figure img {
+                width: 50px;
+                height: 50px;
+                border-radius: 50%;
+                object-fit: cover;
+            }
+
+        .comments-reply section {
+            flex: 1;
+        }
+
+            .comments-reply section h4 {
+                font-size: 1.2em;
+                color: #333;
+                margin-bottom: 5px;
+            }
+
+                .comments-reply section h4 a {
+                    font-size: 0.9em;
+                    color: #fb5353;
+                    text-decoration: none;
+                    margin-left: 10px;
+                }
+
+                    .comments-reply section h4 a:hover {
+                        text-decoration: underline;
+                    }
+
+        .date-pan {
+            font-size: 0.9em;
+            color: #777;
             margin-bottom: 10px;
         }
 
-            .bog-header h3 span {
-                font-size: 1.2em;
-                font-weight: bold;
-            }
-
-        .bog-header h2 {
-            font-size: 2em;
-            color: #333;
-            margin: 0;
+        .rating .bi-star-fill, .rating .bi-star {
+            font-size: 1em;
         }
 
-    .post-details figure {
-        margin: 0 0 20px;
-        text-align: center;
-    }
+        .commentys-form {
+            margin-top: 30px;
+        }
 
-    .post-details img {
-        max-width: 100%;
-        height: auto;
-        border-radius: 8px;
-    }
+            .commentys-form h4 {
+                font-size: 1.4em;
+                color: #333;
+                margin-bottom: 15px;
+            }
 
-    .enter-content {
-        font-size: 1em;
-        color: #555;
-        line-height: 1.6;
-    }
-
-        .enter-content h4 {
-            font-size: 1.4em;
-            color: #333;
+        .form-control {
+            border-radius: 4px;
             margin-bottom: 15px;
         }
 
-        .enter-content p {
-            margin: 10px 0;
+        .text-muted a {
+            color: #fb5353;
+            text-decoration: none;
         }
 
-    .action-links {
-        margin-top: 30px;
-    }
+            .text-muted a:hover {
+                text-decoration: underline;
+            }
 
-    .btn-primary {
-        background: #007bff;
-        border: none;
-        padding: 10px 20px;
-        border-radius: 4px;
-        color: #fff;
-        text-decoration: none;
-        margin-right: 10px;
-    }
+        @@media (max-width: 768px) {
+            .post-details {
+                padding: 15px;
+            }
 
-        .btn-primary:hover {
-            background: #0056b3;
+            .bog-header h2 {
+                font-size: 1.8em;
+            }
+
+            .bog-header h3 {
+                font-size: 1.5em;
+            }
+
+            .enter-content {
+                font-size: 0.95em;
+            }
+
+            .comments-reply li {
+                flex-direction: column;
+            }
+
+            .comments-reply figure {
+                margin-bottom: 10px;
+                margin-right: 0;
+            }
         }
-
-    .btn-secondary {
-        background: #6c757d;
-        border: none;
-        padding: 10px 20px;
-        border-radius: 4px;
-        color: #fff;
-        text-decoration: none;
-    }
-
-        .btn-secondary:hover {
-            background: #5a6268;
-        }
-
-   @@media (max-width: 768px) {
-        .post-details
-
-    {
-        padding: 15px;
-    }
-
-    .bog-header h2 {
-        font-size: 1.8em;
-    }
-
-    .enter-content {
-        font-size: 0.95em;
-    }
-
-    }
-</style>
+    </style>

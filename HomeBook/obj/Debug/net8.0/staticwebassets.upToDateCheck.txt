@@ -182,3 +182,4 @@ wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
 wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
 wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
 wwwroot\logo.png
+wwwroot\Uploads\Avatars\df3e0d50-dedd-46f3-825e-7e05b74e27e7_rosé.jpg

@@ -1,54 +1,93 @@
 ﻿@model IEnumerable<HomeBook.Models.Order>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Lịch sử đơn hàng";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Index</h1>
+<div class="container mt-4">
+    <h1 class="my-4 text-danger"><i class="bi bi-receipt me-2"></i> Lịch Sử Đơn Hàng</h1>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.OrderDate)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.TotalAmount)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Status)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Customer)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.OrderDate)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.TotalAmount)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Status)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Customer.CustomerId)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.OrderId">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.OrderId">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.OrderId">Delete</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+    @if (!Model.Any())
+    {
+        <div class="alert alert-info">
+            Bạn chưa có đơn hàng nào. <a asp-controller="Books" asp-action="Index" class="text-danger">Tiếp tục mua sắm</a>
+        </div>
+    }
+    else
+    {
+        <div class="card border-danger">
+            <div class="card-body">
+                <table class="table table-hover">
+                    <thead class="bg-danger text-white">
+                        <tr>
+                            <th>Mã đơn hàng</th>
+                            <th>Ngày đặt</th>
+                            <th>Tổng tiền</th>
+                            <th>Trạng thái</th>
+                            <th>Chi tiết</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>DH-@item.OrderId</td>
+                                <td>@item.OrderDate?.ToString("dd/MM/yyyy HH:mm")</td>
+                                <td>@item.TotalAmount.ToString("N0") VNĐ</td>
+                                <td>
+                                    <span class="badge @(item.Status == "Chuyển khoản" || item.Status == "Tiền mặt" ? "bg-success" : "bg-warning")">
+                                        @item.Status
+                                    </span>
+                                </td>
+                                <td>
+                                    <a asp-action="Details" asp-route-id="@item.OrderId" class="btn btn-sm btn-outline-danger">
+                                        <i class="bi bi-eye-fill"></i> Xem chi tiết
+                                    </a>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    }
+</div>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <style>
+        .text-danger {
+            color: #fb5353 !important;
+        }
+
+        .bg-danger {
+            background-color: #fb5353 !important;
+        }
+
+        .border-danger {
+            border-color: #fb5353 !important;
+        }
+
+        .btn-outline-danger {
+            color: #fb5353;
+            border-color: #fb5353;
+        }
+
+            .btn-outline-danger:hover {
+                background-color: #fb5353;
+                color: white;
+            }
+
+        .badge.bg-success {
+            background-color: #28a745 !important;
+        }
+
+        .badge.bg-warning {
+            background-color: #ffc107 !important;
+        }
+
+        .table th, .table td {
+            vertical-align: middle;
+        }
+    </style>

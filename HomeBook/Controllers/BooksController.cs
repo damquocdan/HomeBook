@@ -37,12 +37,89 @@ namespace HomeBook.Controllers
                 .Include(b => b.Category)
                 .Include(b => b.Publisher)
                 .FirstOrDefaultAsync(m => m.BookId == id);
+
             if (book == null)
             {
                 return NotFound();
             }
 
+            // Lấy danh sách đánh giá
+            var reviews = await _context.Reviews
+                .Include(r => r.Customer)
+                .Where(r => r.BookId == id)
+                .OrderByDescending(r => r.CreatedAt)
+                .ToListAsync();
+
+            // Kiểm tra xem khách hàng có quyền đánh giá không
+            var customerId = HttpContext.Session.GetInt32("CustomerId");
+            bool canReview = false;
+            if (customerId != null)
+            {
+                canReview = await _context.OrderDetails
+                    .Include(od => od.Order)
+                    .AnyAsync(od => od.BookId == id && od.Order.CustomerId == customerId && od.Order.Status == "Tiền mặt" || od.Order.Status == "Chuyển khoản");
+            }
+
+            ViewBag.Reviews = reviews;
+            ViewBag.CanReview = canReview;
+
             return View(book);
+        }
+
+        // POST: Books/AddReview
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> AddReview(int BookId, int CustomerId, int Rating, string Comment)
+        {
+            var customerIdFromSession = HttpContext.Session.GetInt32("CustomerId");
+            if (customerIdFromSession == null || customerIdFromSession != CustomerId)
+            {
+                TempData["Error"] = "Vui lòng đăng nhập để gửi bình luận.";
+                return RedirectToAction("Details", new { id = BookId });
+            }
+
+            // Kiểm tra xem khách hàng đã mua sách chưa
+            var canReview = await _context.OrderDetails
+                .Include(od => od.Order)
+                .AnyAsync(od => od.BookId == BookId && od.Order.CustomerId == CustomerId && (od.Order.Status == "Tiền mặt" || od.Order.Status == "Chuyển khoản"));
+
+            if (!canReview)
+            {
+                TempData["Error"] = "Bạn cần mua sách này để gửi bình luận.";
+                return RedirectToAction("Details", new { id = BookId });
+            }
+
+            // Kiểm tra xem khách hàng đã đánh giá chưa
+            var existingReview = await _context.Reviews
+                .FirstOrDefaultAsync(r => r.BookId == BookId && r.CustomerId == CustomerId);
+
+            if (existingReview != null)
+            {
+                TempData["Error"] = "Bạn đã gửi bình luận cho sách này.";
+                return RedirectToAction("Details", new { id = BookId });
+            }
+
+            var review = new Review
+            {
+                BookId = BookId,
+                CustomerId = CustomerId,
+                Rating = Rating,
+                Comment = Comment,
+                CreatedAt = DateTime.Now
+            };
+
+            if (ModelState.IsValid)
+            {
+                _context.Reviews.Add(review);
+                await _context.SaveChangesAsync();
+                TempData["Success"] = "Bình luận của bạn đã được gửi.";
+            }
+            else
+            {
+                TempData["Error"] = "Dữ liệu không hợp lệ. Vui lòng kiểm tra lại.";
+            }
+
+            return RedirectToAction("Details", new { id = BookId });
         }
 
         // GET: Books/Create

@@ -1,7 +1,171 @@
-﻿@{
-    ViewData["Title"] = "Dashboard";
+﻿@model HomeBook.Models.Statistic
+@{
+    ViewData["Title"] = "Bảng điều khiển Admin";
     Layout = "~/Areas/AdminHomeBook/Views/Shared/Admin.cshtml";
 }
 
-<h1>Dashboard</h1>
-<p>Đây là nội dung trang chủ admin</p>
+<div class="container-fluid mt-4">
+    <h1 class="mb-4 text-danger"><i class="bi bi-speedometer2 me-2"></i>Bảng Điều Khiển Admin</h1>
+
+    <!-- Statistic Cards -->
+    <div class="row mb-4">
+        <div class="col-md-3 mb-3">
+            <div class="card border-danger text-center">
+                <div class="card-body">
+                    <h5 class="card-title">Tổng Đơn Hàng</h5>
+                    <h3 class="card-text">@ViewBag.TotalOrders</h3>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 mb-3">
+            <div class="card border-danger text-center">
+                <div class="card-body">
+                    <h5 class="card-title">Tổng Doanh Thu</h5>
+                    <h3 class="card-text">@ViewBag.TotalRevenue.ToString("N0") VNĐ</h3>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 mb-3">
+            <div class="card border-danger text-center">
+                <div class="card-body">
+                    <h5 class="card-title">Tổng Khách Hàng</h5>
+                    <h3 class="card-text">@ViewBag.TotalCustomers</h3>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 mb-3">
+            <div class="card border-danger text-center">
+                <div class="card-body">
+                    <h5 class="card-title">Tổng Sách</h5>
+                    <h3 class="card-text">@ViewBag.TotalBooks</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Charts -->
+    <div class="row">
+        <!-- Revenue Over Time (Line Chart) -->
+        <div class="col-md-6 mb-4">
+            <div class="card border-danger">
+                <div class="card-body">
+                    <h5 class="card-title">Doanh Thu 7 Ngày Gần Nhất</h5>
+                    <canvas id="revenueChart"></canvas>
+                </div>
+            </div>
+        </div>
+        <!-- Top 5 Best-Selling Books (Bar Chart) -->
+        <div class="col-md-6 mb-4">
+            <div class="card border-danger">
+                <div class="card-body">
+                    <h5 class="card-title">Top 5 Sách Bán Chạy</h5>
+                    <canvas id="topBooksChart"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+
+@section Scripts {
+    <script>
+        // Revenue Chart (Line)
+        const revenueCtx = document.getElementById('revenueChart').getContext('2d');
+        new Chart(revenueCtx, {
+            type: 'line',
+            data: {
+                labels: @Html.Raw(ViewBag.RevenueLabels),
+                datasets: [{
+                    label: 'Doanh Thu (VNĐ)',
+                    data: @Html.Raw(ViewBag.RevenueValues),
+                    borderColor: '#fb5353',
+                    backgroundColor: 'rgba(251, 83, 83, 0.2)',
+                    fill: true,
+                    tension: 0.4
+                }]
+            },
+            options: {
+                responsive: true,
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        title: {
+                            display: true,
+                            text: 'Doanh Thu (VNĐ)'
+                        }
+                    }
+                }
+            }
+        });
+
+        // Top Books Chart (Bar)
+        const topBooksCtx = document.getElementById('topBooksChart').getContext('2d');
+        new Chart(topBooksCtx, {
+            type: 'bar',
+            data: {
+                labels: @Html.Raw(ViewBag.TopBooksLabels),
+                datasets: [{
+                    label: 'Số Lượng Bán',
+                    data: @Html.Raw(ViewBag.TopBooksValues),
+                    backgroundColor: '#fb5353',
+                    borderColor: '#d94242',
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                responsive: true,
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        title: {
+                            display: true,
+                            text: 'Số Lượng'
+                        }
+                    }
+                }
+            }
+        });
+    </script>
+}
+    <style>
+        .text-danger {
+            color: #fb5353 !important;
+        }
+
+        .border-danger {
+            border-color: #fb5353 !important;
+        }
+
+        .card {
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .card-title {
+            font-size: 1.2em;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .card-text {
+            font-size: 1.8em;
+            color: #fb5353;
+            font-weight: bold;
+        }
+
+        canvas {
+            max-height: 300px;
+        }
+
+        @@media (max-width: 768px) {
+            .card-text {
+                font-size: 1.5em;
+            }
+
+            .card-title {
+                font-size: 1em;
+            }
+        }
+    </style>
