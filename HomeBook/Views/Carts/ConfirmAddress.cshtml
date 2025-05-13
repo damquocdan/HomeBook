@@ -10,10 +10,28 @@
 
     <div class="card border-danger">
         <div class="card-body">
+            @if (ViewData.ModelState.Any(x => x.Value.Errors.Any()))
+            {
+                <div class="alert alert-danger">
+                    Vui lòng sửa các lỗi sau:
+                    <ul>
+                        @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+                        {
+                            <li>@error.ErrorMessage</li>
+                        }
+                    </ul>
+                </div>
+            }
+
             <form asp-action="PlaceOrderWithAddress" method="post">
                 <div class="form-group mb-3">
                     <label class="form-label">Địa chỉ giao hàng</label>
                     <input type="text" name="newAddress" class="form-control" value="@Model.Address" required />
+                </div>
+                <div class="form-group mb-3">
+                    <label class="form-label">Số điện thoại người nhận</label>
+                    <input type="text" name="phone" class="form-control" value="@Model.Phone"
+                           pattern="[0-9]{10,11}" title="Số điện thoại phải có 10 hoặc 11 chữ số." required />
                 </div>
                 <div class="form-group mb-3">
                     <label class="form-label">Phương thức thanh toán</label>
@@ -37,5 +55,9 @@
 
     .border-danger {
         border-color: #fb5353 !important;
+    }
+
+    .form-control:invalid {
+        border-color: #fb5353;
     }
 </style>

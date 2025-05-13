@@ -156,7 +156,7 @@ namespace HomeBook.Controllers
         // POST: Carts/PlaceOrderWithAddress
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> PlaceOrderWithAddress(string newAddress, string paymentMethod)
+        public async Task<IActionResult> PlaceOrderWithAddress(string newAddress, string phone, string paymentMethod)
         {
             var customerId = HttpContext.Session.GetInt32("CustomerId");
             if (customerId == null)
@@ -172,7 +172,14 @@ namespace HomeBook.Controllers
                 TempData["Error"] = "Không tìm thấy thông tin khách hàng.";
                 return RedirectToAction("Index", "Books");
             }
-
+            if (string.IsNullOrEmpty(phone))
+            {
+                ModelState.AddModelError("phone", "Số điện thoại là bắt buộc.");
+            }
+            else if (!System.Text.RegularExpressions.Regex.IsMatch(phone, @"^[0-9]{10,11}$"))
+            {
+                ModelState.AddModelError("phone", "Số điện thoại phải có 10 hoặc 11 chữ số.");
+            }
             if (!string.IsNullOrEmpty(newAddress))
             {
                 customer.Address = newAddress;
@@ -244,7 +251,7 @@ namespace HomeBook.Controllers
                 await _context.SaveChangesAsync();
 
                 TempData["Success"] = "Đơn hàng đã được đặt thành công.";
-                return RedirectToAction("Index", "Books");
+                return RedirectToAction("Index", "Orders");
             }
         }
 

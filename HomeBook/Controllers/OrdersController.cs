@@ -33,6 +33,7 @@ namespace HomeBook.Controllers
                 .Include(o => o.OrderDetails)
                     .ThenInclude(od => od.Book)
                 .Where(o => o.CustomerId == customerId)
+                .OrderByDescending(o => o.OrderDate) // Sort by OrderDate, newest first
                 .ToListAsync();
 
             return View(orders);

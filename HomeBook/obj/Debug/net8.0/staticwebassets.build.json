@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ODqhoLOoSIqWiq8tC1YPbzTfqxQ7blHwdXQlASnZX74=",
+  "Hash": "+dvG9qE8OSQ1Lae8v+IzC/6ApfquSd4dHbVcW8/WKJY=",
   "Source": "HomeBook",
   "BasePath": "_content/HomeBook",
   "Mode": "Default",
@@ -2243,6 +2243,27 @@
       "OriginalItemSpec": "wwwroot\\images\\books\\1.jpg"
     },
     {
+      "Identity": "E:\\DATN\\HomeBook\\HomeBook\\wwwroot\\images\\books\\2R3A8186.jpg",
+      "SourceId": "HomeBook",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\DATN\\HomeBook\\HomeBook\\wwwroot\\",
+      "BasePath": "_content/HomeBook",
+      "RelativePath": "images/books/2R3A8186#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "vlsjza58ue",
+      "Integrity": "bS3zSdv00ZOsRx34WP5cAEpBUFvzjnjvgSHD9y416BI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\books\\2R3A8186.jpg"
+    },
+    {
       "Identity": "E:\\DATN\\HomeBook\\HomeBook\\wwwroot\\images\\favicon.ico",
       "SourceId": "HomeBook",
       "SourceType": "Discovered",
@@ -2367,6 +2388,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\home-images\\image-5.jpg"
+    },
+    {
+      "Identity": "E:\\DATN\\HomeBook\\HomeBook\\wwwroot\\images\\logo.png",
+      "SourceId": "HomeBook",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\DATN\\HomeBook\\HomeBook\\wwwroot\\",
+      "BasePath": "_content/HomeBook",
+      "RelativePath": "images/logo#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "gq7gidzwer",
+      "Integrity": "2J77z3gbCJiU0hj7tjV1zhWh6zEEG/Q3Tb3kHk94P5Y=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\logo.png"
     },
     {
       "Identity": "E:\\DATN\\HomeBook\\HomeBook\\wwwroot\\images\\work\\works-image-1.jpg",
@@ -3900,27 +3942,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
-    },
-    {
-      "Identity": "E:\\DATN\\HomeBook\\HomeBook\\wwwroot\\logo.png",
-      "SourceId": "HomeBook",
-      "SourceType": "Discovered",
-      "ContentRoot": "E:\\DATN\\HomeBook\\HomeBook\\wwwroot\\",
-      "BasePath": "_content/HomeBook",
-      "RelativePath": "logo#[.{fingerprint}]?.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "gq7gidzwer",
-      "Integrity": "2J77z3gbCJiU0hj7tjV1zhWh6zEEG/Q3Tb3kHk94P5Y=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\logo.png"
     },
     {
       "Identity": "E:\\DATN\\HomeBook\\HomeBook\\wwwroot\\Uploads\\Avatars\\df3e0d50-dedd-46f3-825e-7e05b74e27e7_rosé.jpg",
@@ -12638,6 +12659,88 @@
       ]
     },
     {
+      "Route": "images/books/2R3A8186.jpg",
+      "AssetFile": "E:\\DATN\\HomeBook\\HomeBook\\wwwroot\\images\\books\\2R3A8186.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5635953"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bS3zSdv00ZOsRx34WP5cAEpBUFvzjnjvgSHD9y416BI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 06 May 2025 00:19:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-bS3zSdv00ZOsRx34WP5cAEpBUFvzjnjvgSHD9y416BI="
+        }
+      ]
+    },
+    {
+      "Route": "images/books/2R3A8186.vlsjza58ue.jpg",
+      "AssetFile": "E:\\DATN\\HomeBook\\HomeBook\\wwwroot\\images\\books\\2R3A8186.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5635953"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bS3zSdv00ZOsRx34WP5cAEpBUFvzjnjvgSHD9y416BI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 06 May 2025 00:19:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vlsjza58ue"
+        },
+        {
+          "Name": "label",
+          "Value": "images/books/2R3A8186.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-bS3zSdv00ZOsRx34WP5cAEpBUFvzjnjvgSHD9y416BI="
+        }
+      ]
+    },
+    {
       "Route": "images/favicon.ico",
       "AssetFile": "E:\\DATN\\HomeBook\\HomeBook\\wwwroot\\images\\favicon.ico",
       "Selectors": [],
@@ -13126,6 +13229,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-EmsjxBQzOzx9EjLMj3E+RIaYqom1xkRMEXeFccRZObA="
+        }
+      ]
+    },
+    {
+      "Route": "images/logo.gq7gidzwer.png",
+      "AssetFile": "E:\\DATN\\HomeBook\\HomeBook\\wwwroot\\images\\logo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1183681"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2J77z3gbCJiU0hj7tjV1zhWh6zEEG/Q3Tb3kHk94P5Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 03:41:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gq7gidzwer"
+        },
+        {
+          "Name": "label",
+          "Value": "images/logo.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2J77z3gbCJiU0hj7tjV1zhWh6zEEG/Q3Tb3kHk94P5Y="
+        }
+      ]
+    },
+    {
+      "Route": "images/logo.png",
+      "AssetFile": "E:\\DATN\\HomeBook\\HomeBook\\wwwroot\\images\\logo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1183681"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2J77z3gbCJiU0hj7tjV1zhWh6zEEG/Q3Tb3kHk94P5Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 03:41:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2J77z3gbCJiU0hj7tjV1zhWh6zEEG/Q3Tb3kHk94P5Y="
         }
       ]
     },
@@ -19112,88 +19297,6 @@
         {
           "Name": "integrity",
           "Value": "sha256-16aFlqtpsG9RyieKZUUUjkJpqTgcJtWXwT312I4Iz1s="
-        }
-      ]
-    },
-    {
-      "Route": "logo.gq7gidzwer.png",
-      "AssetFile": "E:\\DATN\\HomeBook\\HomeBook\\wwwroot\\logo.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1183681"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"2J77z3gbCJiU0hj7tjV1zhWh6zEEG/Q3Tb3kHk94P5Y=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 17 Apr 2025 03:41:57 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "gq7gidzwer"
-        },
-        {
-          "Name": "label",
-          "Value": "logo.png"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-2J77z3gbCJiU0hj7tjV1zhWh6zEEG/Q3Tb3kHk94P5Y="
-        }
-      ]
-    },
-    {
-      "Route": "logo.png",
-      "AssetFile": "E:\\DATN\\HomeBook\\HomeBook\\wwwroot\\logo.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1183681"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"2J77z3gbCJiU0hj7tjV1zhWh6zEEG/Q3Tb3kHk94P5Y=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 17 Apr 2025 03:41:57 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-2J77z3gbCJiU0hj7tjV1zhWh6zEEG/Q3Tb3kHk94P5Y="
         }
       ]
     },

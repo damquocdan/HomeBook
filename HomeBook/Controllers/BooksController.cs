@@ -19,10 +19,82 @@ namespace HomeBook.Controllers
         }
 
         // GET: Books
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(
+            string searchString, // Tìm kiếm theo tên sách
+            string publisherSearch, // Tìm kiếm theo nhà xuất bản
+            int? categoryId, // Lọc theo danh mục
+            decimal? minPrice, // Giá tối thiểu
+            decimal? maxPrice, // Giá tối đa
+            string sortOrder = "newest" // Mặc định sắp xếp theo sách mới nhất
+        )
         {
-            var homeBookContext = _context.Books.Include(b => b.Category).Include(b => b.Publisher);
-            return View(await homeBookContext.ToListAsync());
+            // Lấy danh sách danh mục và nhà xuất bản để hiển thị trong bộ lọc
+            ViewData["Categories"] = await _context.Categories.ToListAsync();
+            ViewData["Publishers"] = await _context.Publishers.ToListAsync();
+
+            // Lưu các giá trị lọc để hiển thị lại trên giao diện
+            ViewData["CurrentSearchString"] = searchString;
+            ViewData["CurrentPublisherSearch"] = publisherSearch;
+            ViewData["CurrentCategoryId"] = categoryId;
+            ViewData["CurrentMinPrice"] = minPrice;
+            ViewData["CurrentMaxPrice"] = maxPrice;
+            ViewData["CurrentSortOrder"] = sortOrder;
+
+            // Truy vấn cơ bản
+            var books = _context.Books
+                .Include(b => b.Category)
+                .Include(b => b.Publisher)
+                .AsQueryable();
+
+            // Tìm kiếm theo tên sách
+            if (!string.IsNullOrEmpty(searchString))
+            {
+                books = books.Where(b => b.BookTitle.ToLower().Contains(searchString.ToLower()));
+            }
+
+            if (!string.IsNullOrEmpty(publisherSearch))
+            {
+                books = books.Where(b => b.Publisher.PublisherName.ToLower().Contains(publisherSearch.ToLower()));
+            }
+
+
+            // Lọc theo danh mục
+            if (categoryId.HasValue)
+            {
+                books = books.Where(b => b.CategoryId == categoryId.Value);
+            }
+
+            // Lọc theo giá
+            if (minPrice.HasValue)
+            {
+                books = books.Where(b => b.Price >= minPrice.Value);
+            }
+            if (maxPrice.HasValue)
+            {
+                books = books.Where(b => b.Price <= maxPrice.Value);
+            }
+
+            // Sắp xếp
+            switch (sortOrder.ToLower())
+            {
+                case "price_asc":
+                    books = books.OrderBy(b => b.Price);
+                    break;
+                case "price_desc":
+                    books = books.OrderByDescending(b => b.Price);
+                    break;
+                case "newest":
+                default:
+                    books = books.OrderByDescending(b => b.BookId); // Sách mới nhất đầu tiên
+                    break;
+            }
+
+            // Nhóm sách theo danh mục để hiển thị theo nhóm trong view
+            var booksByCategory = await books
+                .GroupBy(b => b.Category)
+                .ToListAsync();
+
+            return View(booksByCategory);
         }
 
         // GET: Books/Details/5

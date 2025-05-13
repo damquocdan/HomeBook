@@ -425,6 +425,10 @@
       "PackagePath": "staticwebassets\\images\\books\\1.jpg"
     },
     {
+      "Id": "E:\\DATN\\HomeBook\\HomeBook\\wwwroot\\images\\books\\2R3A8186.jpg",
+      "PackagePath": "staticwebassets\\images\\books\\2R3A8186.jpg"
+    },
+    {
       "Id": "E:\\DATN\\HomeBook\\HomeBook\\wwwroot\\images\\favicon.ico",
       "PackagePath": "staticwebassets\\images\\favicon.ico"
     },
@@ -447,6 +451,10 @@
     {
       "Id": "E:\\DATN\\HomeBook\\HomeBook\\wwwroot\\images\\home-images\\image-5.jpg",
       "PackagePath": "staticwebassets\\images\\home-images\\image-5.jpg"
+    },
+    {
+      "Id": "E:\\DATN\\HomeBook\\HomeBook\\wwwroot\\images\\logo.png",
+      "PackagePath": "staticwebassets\\images\\logo.png"
     },
     {
       "Id": "E:\\DATN\\HomeBook\\HomeBook\\wwwroot\\images\\work\\works-image-1.jpg",
@@ -739,10 +747,6 @@
     {
       "Id": "E:\\DATN\\HomeBook\\HomeBook\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
-    },
-    {
-      "Id": "E:\\DATN\\HomeBook\\HomeBook\\wwwroot\\logo.png",
-      "PackagePath": "staticwebassets\\logo.png"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.HomeBook.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",

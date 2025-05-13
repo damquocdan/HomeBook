@@ -102,12 +102,14 @@ wwwroot\images\blog-images\image-1.jpg
 wwwroot\images\blog-images\image-2.jpg
 wwwroot\images\blog-images\image-3.jpg
 wwwroot\images\books\1.jpg
+wwwroot\images\books\2R3A8186.jpg
 wwwroot\images\favicon.ico
 wwwroot\images\home-images\image-1.jpg
 wwwroot\images\home-images\image-2.jpg
 wwwroot\images\home-images\image-3.jpg
 wwwroot\images\home-images\image-4.jpg
 wwwroot\images\home-images\image-5.jpg
+wwwroot\images\logo.png
 wwwroot\images\work\works-image-1.jpg
 wwwroot\images\work\works-image-2.jpg
 wwwroot\images\work\works-image-3.jpg
@@ -181,5 +183,4 @@ wwwroot\lib\jquery-validation\LICENSE.md
 wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
 wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
 wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
-wwwroot\logo.png
 wwwroot\Uploads\Avatars\df3e0d50-dedd-46f3-825e-7e05b74e27e7_rosé.jpg
